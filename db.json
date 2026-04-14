@@ -1,7 +1,7 @@
 {
   "spaces": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Intimate Loft",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Boston",
@@ -19,7 +19,7 @@
       "createdAt": "2025-01-16T00:21:41.514Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Minimalist Gallery",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Brookline",
@@ -38,7 +38,7 @@
       "createdAt": "2024-05-13T00:21:41.515Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Contemporary Suite",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Somerville",
@@ -60,7 +60,7 @@
       "createdAt": "2024-11-13T00:21:41.515Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Industrial Pavilion",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Portland",
@@ -81,7 +81,7 @@
       "createdAt": "2025-12-30T00:21:41.515Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Contemporary Studio",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Worcester",
@@ -100,7 +100,7 @@
       "createdAt": "2025-02-19T00:21:41.515Z"
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Industrial Suite",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Portland",
@@ -119,7 +119,7 @@
       "createdAt": "2025-12-14T00:21:41.515Z"
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Grand Den",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Somerville",
@@ -141,7 +141,7 @@
       "createdAt": "2025-05-12T00:21:41.515Z"
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Spacious Hub",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Portland",
@@ -161,7 +161,7 @@
       "createdAt": "2026-04-05T00:21:41.515Z"
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Intimate Atrium",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Cambridge",
@@ -180,7 +180,7 @@
       "createdAt": "2025-10-29T00:21:41.515Z"
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Intimate Place",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Portland",
@@ -201,7 +201,7 @@
       "createdAt": "2025-12-17T00:21:41.515Z"
     },
     {
-      "id": 11,
+      "id": "11",
       "name": "Spacious Lounge",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Quincy",
@@ -219,7 +219,7 @@
       "createdAt": "2024-09-26T00:21:41.515Z"
     },
     {
-      "id": 12,
+      "id": "12",
       "name": "Chic Room",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Worcester",
@@ -237,7 +237,7 @@
       "createdAt": "2024-12-25T00:21:41.515Z"
     },
     {
-      "id": 13,
+      "id": "13",
       "name": "Vibrant Den",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Worcester",
@@ -258,7 +258,7 @@
       "createdAt": "2026-03-12T00:21:41.515Z"
     },
     {
-      "id": 14,
+      "id": "14",
       "name": "Minimalist Venue",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Cambridge",
@@ -276,7 +276,7 @@
       "createdAt": "2025-02-01T00:21:41.515Z"
     },
     {
-      "id": 15,
+      "id": "15",
       "name": "Chic Loft",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Portland",
@@ -294,7 +294,7 @@
       "createdAt": "2025-02-01T00:21:41.515Z"
     },
     {
-      "id": 16,
+      "id": "16",
       "name": "Spacious Loft",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Quincy",
@@ -316,7 +316,7 @@
       "createdAt": "2025-11-26T00:21:41.515Z"
     },
     {
-      "id": 17,
+      "id": "17",
       "name": "Luxurious Place",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Brookline",
@@ -338,7 +338,7 @@
       "createdAt": "2025-05-05T00:21:41.515Z"
     },
     {
-      "id": 18,
+      "id": "18",
       "name": "Sleek Hub",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Somerville",
@@ -357,7 +357,7 @@
       "createdAt": "2024-04-17T00:21:41.515Z"
     },
     {
-      "id": 19,
+      "id": "19",
       "name": "Vibrant Loft",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Portland",
@@ -376,7 +376,7 @@
       "createdAt": "2025-06-03T00:21:41.515Z"
     },
     {
-      "id": 20,
+      "id": "20",
       "name": "Industrial Den",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Salem",
@@ -396,7 +396,7 @@
       "createdAt": "2026-01-08T00:21:41.515Z"
     },
     {
-      "id": 21,
+      "id": "21",
       "name": "Rustic Studio",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Providence",
@@ -418,7 +418,7 @@
       "createdAt": "2024-10-27T00:21:41.515Z"
     },
     {
-      "id": 22,
+      "id": "22",
       "name": "Modern Place",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Quincy",
@@ -440,7 +440,7 @@
       "createdAt": "2025-03-21T00:21:41.515Z"
     },
     {
-      "id": 23,
+      "id": "23",
       "name": "Elegant Hall",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Boston",
@@ -462,7 +462,7 @@
       "createdAt": "2025-08-21T00:21:41.515Z"
     },
     {
-      "id": 24,
+      "id": "24",
       "name": "Luxurious Gallery",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Salem",
@@ -483,7 +483,7 @@
       "createdAt": "2026-03-29T00:21:41.515Z"
     },
     {
-      "id": 25,
+      "id": "25",
       "name": "Elegant Den",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Cambridge",
@@ -505,7 +505,7 @@
       "createdAt": "2025-07-20T00:21:41.515Z"
     },
     {
-      "id": 26,
+      "id": "26",
       "name": "Modern Loft",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Boston",
@@ -524,7 +524,7 @@
       "createdAt": "2024-04-28T00:21:41.515Z"
     },
     {
-      "id": 27,
+      "id": "27",
       "name": "Modern Venue",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Quincy",
@@ -542,7 +542,7 @@
       "createdAt": "2025-03-29T00:21:41.515Z"
     },
     {
-      "id": 28,
+      "id": "28",
       "name": "Contemporary Space",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Brookline",
@@ -561,7 +561,7 @@
       "createdAt": "2025-03-15T00:21:41.515Z"
     },
     {
-      "id": 29,
+      "id": "29",
       "name": "Contemporary Hall",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Somerville",
@@ -580,7 +580,7 @@
       "createdAt": "2024-07-13T00:21:41.515Z"
     },
     {
-      "id": 30,
+      "id": "30",
       "name": "Modern Terrace",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Providence",
@@ -602,7 +602,7 @@
       "createdAt": "2024-10-13T00:21:41.515Z"
     },
     {
-      "id": 31,
+      "id": "31",
       "name": "Luxurious Loft",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Providence",
@@ -624,7 +624,7 @@
       "createdAt": "2025-12-01T00:21:41.515Z"
     },
     {
-      "id": 32,
+      "id": "32",
       "name": "Intimate Pavilion",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Worcester",
@@ -643,7 +643,7 @@
       "createdAt": "2025-01-09T00:21:41.515Z"
     },
     {
-      "id": 33,
+      "id": "33",
       "name": "Industrial Hall",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Cambridge",
@@ -661,7 +661,7 @@
       "createdAt": "2024-08-19T00:21:41.515Z"
     },
     {
-      "id": 34,
+      "id": "34",
       "name": "Contemporary Lounge",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Newton",
@@ -682,7 +682,7 @@
       "createdAt": "2026-01-27T00:21:41.515Z"
     },
     {
-      "id": 35,
+      "id": "35",
       "name": "Rustic Lounge",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Worcester",
@@ -703,7 +703,7 @@
       "createdAt": "2024-09-22T00:21:41.515Z"
     },
     {
-      "id": 36,
+      "id": "36",
       "name": "Industrial Suite",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Quincy",
@@ -721,7 +721,7 @@
       "createdAt": "2025-07-06T00:21:41.515Z"
     },
     {
-      "id": 37,
+      "id": "37",
       "name": "Historic Pavilion",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Brookline",
@@ -740,7 +740,7 @@
       "createdAt": "2024-08-30T00:21:41.515Z"
     },
     {
-      "id": 38,
+      "id": "38",
       "name": "Modern Terrace",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Cambridge",
@@ -761,7 +761,7 @@
       "createdAt": "2026-02-06T00:21:41.515Z"
     },
     {
-      "id": 39,
+      "id": "39",
       "name": "Spacious Atrium",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Portland",
@@ -781,7 +781,7 @@
       "createdAt": "2025-07-17T00:21:41.515Z"
     },
     {
-      "id": 40,
+      "id": "40",
       "name": "Rustic Room",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Worcester",
@@ -801,7 +801,7 @@
       "createdAt": "2025-05-29T00:21:41.515Z"
     },
     {
-      "id": 41,
+      "id": "41",
       "name": "Cozy Lounge",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Quincy",
@@ -821,7 +821,7 @@
       "createdAt": "2025-04-25T00:21:41.515Z"
     },
     {
-      "id": 42,
+      "id": "42",
       "name": "Contemporary Terrace",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Cambridge",
@@ -843,7 +843,7 @@
       "createdAt": "2026-01-26T00:21:41.515Z"
     },
     {
-      "id": 43,
+      "id": "43",
       "name": "Grand Terrace",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Boston",
@@ -863,7 +863,7 @@
       "createdAt": "2024-04-22T00:21:41.515Z"
     },
     {
-      "id": 44,
+      "id": "44",
       "name": "Sleek Room",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Cambridge",
@@ -884,7 +884,7 @@
       "createdAt": "2026-03-17T00:21:41.515Z"
     },
     {
-      "id": 45,
+      "id": "45",
       "name": "Historic Lounge",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Worcester",
@@ -905,7 +905,7 @@
       "createdAt": "2025-09-17T00:21:41.515Z"
     },
     {
-      "id": 46,
+      "id": "46",
       "name": "Chic Hall",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Providence",
@@ -925,7 +925,7 @@
       "createdAt": "2025-07-23T00:21:41.515Z"
     },
     {
-      "id": 47,
+      "id": "47",
       "name": "Historic Place",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Newton",
@@ -944,7 +944,7 @@
       "createdAt": "2024-08-11T00:21:41.515Z"
     },
     {
-      "id": 48,
+      "id": "48",
       "name": "Industrial Atrium",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Portland",
@@ -965,7 +965,7 @@
       "createdAt": "2026-02-21T00:21:41.515Z"
     },
     {
-      "id": 49,
+      "id": "49",
       "name": "Intimate Venue",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Cambridge",
@@ -986,7 +986,7 @@
       "createdAt": "2025-10-03T00:21:41.515Z"
     },
     {
-      "id": 50,
+      "id": "50",
       "name": "Vibrant Space",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Boston",
@@ -1005,7 +1005,7 @@
       "createdAt": "2025-05-14T00:21:41.515Z"
     },
     {
-      "id": 51,
+      "id": "51",
       "name": "Luxurious Hall",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Providence",
@@ -1025,7 +1025,7 @@
       "createdAt": "2025-07-10T00:21:41.515Z"
     },
     {
-      "id": 52,
+      "id": "52",
       "name": "Elegant Studio",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Brookline",
@@ -1046,7 +1046,7 @@
       "createdAt": "2025-10-10T00:21:41.515Z"
     },
     {
-      "id": 53,
+      "id": "53",
       "name": "Modern Hub",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Portland",
@@ -1066,7 +1066,7 @@
       "createdAt": "2025-04-17T00:21:41.515Z"
     },
     {
-      "id": 54,
+      "id": "54",
       "name": "Rustic Hall",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Cambridge",
@@ -1084,7 +1084,7 @@
       "createdAt": "2026-02-11T00:21:41.515Z"
     },
     {
-      "id": 55,
+      "id": "55",
       "name": "Vibrant Lounge",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Worcester",
@@ -1102,7 +1102,7 @@
       "createdAt": "2024-08-01T00:21:41.515Z"
     },
     {
-      "id": 56,
+      "id": "56",
       "name": "Contemporary Atrium",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Somerville",
@@ -1122,7 +1122,7 @@
       "createdAt": "2025-01-17T00:21:41.515Z"
     },
     {
-      "id": 57,
+      "id": "57",
       "name": "Sleek Terrace",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Boston",
@@ -1143,7 +1143,7 @@
       "createdAt": "2025-03-21T00:21:41.515Z"
     },
     {
-      "id": 58,
+      "id": "58",
       "name": "Chic Place",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Somerville",
@@ -1163,7 +1163,7 @@
       "createdAt": "2025-08-06T00:21:41.515Z"
     },
     {
-      "id": 59,
+      "id": "59",
       "name": "Grand Space",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Somerville",
@@ -1185,7 +1185,7 @@
       "createdAt": "2025-04-26T00:21:41.515Z"
     },
     {
-      "id": 60,
+      "id": "60",
       "name": "Intimate Den",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Newton",
@@ -1205,7 +1205,7 @@
       "createdAt": "2025-06-19T00:21:41.515Z"
     },
     {
-      "id": 61,
+      "id": "61",
       "name": "Sleek Room",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Brookline",
@@ -1223,7 +1223,7 @@
       "createdAt": "2025-11-11T00:21:41.515Z"
     },
     {
-      "id": 62,
+      "id": "62",
       "name": "Luxurious Lounge",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Somerville",
@@ -1241,7 +1241,7 @@
       "createdAt": "2024-08-30T00:21:41.515Z"
     },
     {
-      "id": 63,
+      "id": "63",
       "name": "Vibrant Place",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Somerville",
@@ -1261,7 +1261,7 @@
       "createdAt": "2024-06-05T00:21:41.515Z"
     },
     {
-      "id": 64,
+      "id": "64",
       "name": "Vibrant Pavilion",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Boston",
@@ -1283,7 +1283,7 @@
       "createdAt": "2025-05-29T00:21:41.515Z"
     },
     {
-      "id": 65,
+      "id": "65",
       "name": "Cozy Space",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Salem",
@@ -1305,7 +1305,7 @@
       "createdAt": "2025-01-22T00:21:41.515Z"
     },
     {
-      "id": 66,
+      "id": "66",
       "name": "Cozy Venue",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Boston",
@@ -1325,7 +1325,7 @@
       "createdAt": "2026-01-24T00:21:41.515Z"
     },
     {
-      "id": 67,
+      "id": "67",
       "name": "Luxurious Loft",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Newton",
@@ -1347,7 +1347,7 @@
       "createdAt": "2025-04-23T00:21:41.515Z"
     },
     {
-      "id": 68,
+      "id": "68",
       "name": "Cozy Gallery",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Providence",
@@ -1366,7 +1366,7 @@
       "createdAt": "2025-06-14T00:21:41.515Z"
     },
     {
-      "id": 69,
+      "id": "69",
       "name": "Historic Venue",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Quincy",
@@ -1384,7 +1384,7 @@
       "createdAt": "2025-06-08T00:21:41.515Z"
     },
     {
-      "id": 70,
+      "id": "70",
       "name": "Contemporary Space",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Newton",
@@ -1404,7 +1404,7 @@
       "createdAt": "2026-01-21T00:21:41.515Z"
     },
     {
-      "id": 71,
+      "id": "71",
       "name": "Spacious Suite",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Providence",
@@ -1425,7 +1425,7 @@
       "createdAt": "2024-12-14T00:21:41.515Z"
     },
     {
-      "id": 72,
+      "id": "72",
       "name": "Contemporary Venue",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Portland",
@@ -1446,7 +1446,7 @@
       "createdAt": "2024-06-05T00:21:41.515Z"
     },
     {
-      "id": 73,
+      "id": "73",
       "name": "Minimalist Hall",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Newton",
@@ -1466,7 +1466,7 @@
       "createdAt": "2026-04-04T00:21:41.515Z"
     },
     {
-      "id": 74,
+      "id": "74",
       "name": "Grand Gallery",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Cambridge",
@@ -1487,7 +1487,7 @@
       "createdAt": "2025-07-12T00:21:41.515Z"
     },
     {
-      "id": 75,
+      "id": "75",
       "name": "Modern Den",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Newton",
@@ -1509,7 +1509,7 @@
       "createdAt": "2026-03-04T00:21:41.515Z"
     },
     {
-      "id": 76,
+      "id": "76",
       "name": "Elegant Studio",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Worcester",
@@ -1529,7 +1529,7 @@
       "createdAt": "2025-10-02T00:21:41.515Z"
     },
     {
-      "id": 77,
+      "id": "77",
       "name": "Luxurious Studio",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Brookline",
@@ -1549,7 +1549,7 @@
       "createdAt": "2025-12-02T00:21:41.515Z"
     },
     {
-      "id": 78,
+      "id": "78",
       "name": "Sleek Room",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Somerville",
@@ -1570,7 +1570,7 @@
       "createdAt": "2025-05-29T00:21:41.515Z"
     },
     {
-      "id": 79,
+      "id": "79",
       "name": "Cozy Atrium",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Brookline",
@@ -1589,7 +1589,7 @@
       "createdAt": "2025-04-11T00:21:41.515Z"
     },
     {
-      "id": 80,
+      "id": "80",
       "name": "Cozy Venue",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Salem",
@@ -1607,7 +1607,7 @@
       "createdAt": "2025-12-17T00:21:41.515Z"
     },
     {
-      "id": 81,
+      "id": "81",
       "name": "Cozy Loft",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Brookline",
@@ -1628,7 +1628,7 @@
       "createdAt": "2025-01-24T00:21:41.515Z"
     },
     {
-      "id": 82,
+      "id": "82",
       "name": "Sleek Terrace",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Cambridge",
@@ -1649,7 +1649,7 @@
       "createdAt": "2026-04-01T00:21:41.515Z"
     },
     {
-      "id": 83,
+      "id": "83",
       "name": "Sleek Gallery",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Providence",
@@ -1670,7 +1670,7 @@
       "createdAt": "2024-12-28T00:21:41.515Z"
     },
     {
-      "id": 84,
+      "id": "84",
       "name": "Elegant Suite",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Boston",
@@ -1691,7 +1691,7 @@
       "createdAt": "2025-10-05T00:21:41.515Z"
     },
     {
-      "id": 85,
+      "id": "85",
       "name": "Historic Loft",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Quincy",
@@ -1711,7 +1711,7 @@
       "createdAt": "2025-03-05T00:21:41.515Z"
     },
     {
-      "id": 86,
+      "id": "86",
       "name": "Sleek Venue",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Boston",
@@ -1729,7 +1729,7 @@
       "createdAt": "2025-08-03T00:21:41.515Z"
     },
     {
-      "id": 87,
+      "id": "87",
       "name": "Modern Hub",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Worcester",
@@ -1751,7 +1751,7 @@
       "createdAt": "2024-09-13T00:21:41.515Z"
     },
     {
-      "id": 88,
+      "id": "88",
       "name": "Modern Lounge",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Somerville",
@@ -1769,7 +1769,7 @@
       "createdAt": "2025-02-14T00:21:41.515Z"
     },
     {
-      "id": 89,
+      "id": "89",
       "name": "Historic Terrace",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Somerville",
@@ -1791,7 +1791,7 @@
       "createdAt": "2025-06-08T00:21:41.515Z"
     },
     {
-      "id": 90,
+      "id": "90",
       "name": "Sleek Space",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Somerville",
@@ -1813,7 +1813,7 @@
       "createdAt": "2025-12-30T00:21:41.515Z"
     },
     {
-      "id": 91,
+      "id": "91",
       "name": "Rustic Pavilion",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Brookline",
@@ -1833,7 +1833,7 @@
       "createdAt": "2024-08-05T00:21:41.515Z"
     },
     {
-      "id": 92,
+      "id": "92",
       "name": "Contemporary Atrium",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Cambridge",
@@ -1851,7 +1851,7 @@
       "createdAt": "2026-03-11T00:21:41.515Z"
     },
     {
-      "id": 93,
+      "id": "93",
       "name": "Historic Loft",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Quincy",
@@ -1872,7 +1872,7 @@
       "createdAt": "2025-10-15T00:21:41.515Z"
     },
     {
-      "id": 94,
+      "id": "94",
       "name": "Grand Room",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Somerville",
@@ -1894,7 +1894,7 @@
       "createdAt": "2025-01-20T00:21:41.515Z"
     },
     {
-      "id": 95,
+      "id": "95",
       "name": "Spacious Studio",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Brookline",
@@ -1912,7 +1912,7 @@
       "createdAt": "2025-08-22T00:21:41.515Z"
     },
     {
-      "id": 96,
+      "id": "96",
       "name": "Historic Pavilion",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Brookline",
@@ -1930,7 +1930,7 @@
       "createdAt": "2025-03-24T00:21:41.515Z"
     },
     {
-      "id": 97,
+      "id": "97",
       "name": "Historic Space",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Somerville",
@@ -1952,7 +1952,7 @@
       "createdAt": "2024-09-14T00:21:41.515Z"
     },
     {
-      "id": 98,
+      "id": "98",
       "name": "Contemporary Gallery",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Somerville",
@@ -1970,7 +1970,7 @@
       "createdAt": "2024-08-06T00:21:41.515Z"
     },
     {
-      "id": 99,
+      "id": "99",
       "name": "Industrial Venue",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Worcester",
@@ -1988,7 +1988,7 @@
       "createdAt": "2024-06-19T00:21:41.515Z"
     },
     {
-      "id": 100,
+      "id": "100",
       "name": "Minimalist Suite",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Providence",
@@ -2010,7 +2010,7 @@
       "createdAt": "2025-07-28T00:21:41.515Z"
     },
     {
-      "id": 101,
+      "id": "101",
       "name": "Spacious Hub",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Cambridge",
@@ -2029,7 +2029,7 @@
       "createdAt": "2025-04-30T00:21:41.515Z"
     },
     {
-      "id": 102,
+      "id": "102",
       "name": "Elegant Gallery",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Cambridge",
@@ -2047,7 +2047,7 @@
       "createdAt": "2024-06-04T00:21:41.515Z"
     },
     {
-      "id": 103,
+      "id": "103",
       "name": "Sleek Space",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Brookline",
@@ -2069,7 +2069,7 @@
       "createdAt": "2024-08-08T00:21:41.515Z"
     },
     {
-      "id": 104,
+      "id": "104",
       "name": "Spacious Loft",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Providence",
@@ -2089,7 +2089,7 @@
       "createdAt": "2025-05-17T00:21:41.515Z"
     },
     {
-      "id": 105,
+      "id": "105",
       "name": "Chic Space",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Boston",
@@ -2108,7 +2108,7 @@
       "createdAt": "2024-08-20T00:21:41.515Z"
     },
     {
-      "id": 106,
+      "id": "106",
       "name": "Industrial Loft",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Cambridge",
@@ -2130,7 +2130,7 @@
       "createdAt": "2025-11-10T00:21:41.515Z"
     },
     {
-      "id": 107,
+      "id": "107",
       "name": "Industrial Atrium",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Portland",
@@ -2152,7 +2152,7 @@
       "createdAt": "2024-09-04T00:21:41.515Z"
     },
     {
-      "id": 108,
+      "id": "108",
       "name": "Spacious Room",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Salem",
@@ -2174,7 +2174,7 @@
       "createdAt": "2025-08-24T00:21:41.515Z"
     },
     {
-      "id": 109,
+      "id": "109",
       "name": "Vibrant Studio",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Somerville",
@@ -2194,7 +2194,7 @@
       "createdAt": "2024-07-17T00:21:41.515Z"
     },
     {
-      "id": 110,
+      "id": "110",
       "name": "Sleek Space",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Portland",
@@ -2212,7 +2212,7 @@
       "createdAt": "2024-12-01T00:21:41.515Z"
     },
     {
-      "id": 111,
+      "id": "111",
       "name": "Modern Room",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Quincy",
@@ -2233,7 +2233,7 @@
       "createdAt": "2025-05-30T00:21:41.515Z"
     },
     {
-      "id": 112,
+      "id": "112",
       "name": "Elegant Loft",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Brookline",
@@ -2252,7 +2252,7 @@
       "createdAt": "2026-03-05T00:21:41.515Z"
     },
     {
-      "id": 113,
+      "id": "113",
       "name": "Sleek Suite",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Quincy",
@@ -2274,7 +2274,7 @@
       "createdAt": "2024-05-31T00:21:41.515Z"
     },
     {
-      "id": 114,
+      "id": "114",
       "name": "Modern Den",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Providence",
@@ -2296,7 +2296,7 @@
       "createdAt": "2026-01-21T00:21:41.515Z"
     },
     {
-      "id": 115,
+      "id": "115",
       "name": "Spacious Hall",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Worcester",
@@ -2318,7 +2318,7 @@
       "createdAt": "2025-06-10T00:21:41.515Z"
     },
     {
-      "id": 116,
+      "id": "116",
       "name": "Modern Atrium",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Worcester",
@@ -2338,7 +2338,7 @@
       "createdAt": "2024-09-29T00:21:41.515Z"
     },
     {
-      "id": 117,
+      "id": "117",
       "name": "Chic Venue",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Boston",
@@ -2359,7 +2359,7 @@
       "createdAt": "2024-09-10T00:21:41.515Z"
     },
     {
-      "id": 118,
+      "id": "118",
       "name": "Chic Place",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Providence",
@@ -2380,7 +2380,7 @@
       "createdAt": "2025-07-05T00:21:41.515Z"
     },
     {
-      "id": 119,
+      "id": "119",
       "name": "Modern Terrace",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Brookline",
@@ -2402,7 +2402,7 @@
       "createdAt": "2026-04-08T00:21:41.515Z"
     },
     {
-      "id": 120,
+      "id": "120",
       "name": "Grand Hub",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Worcester",
@@ -2422,7 +2422,7 @@
       "createdAt": "2026-03-31T00:21:41.515Z"
     },
     {
-      "id": 121,
+      "id": "121",
       "name": "Contemporary Den",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Newton",
@@ -2442,7 +2442,7 @@
       "createdAt": "2025-09-14T00:21:41.515Z"
     },
     {
-      "id": 122,
+      "id": "122",
       "name": "Vibrant Studio",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Salem",
@@ -2464,7 +2464,7 @@
       "createdAt": "2024-11-05T00:21:41.515Z"
     },
     {
-      "id": 123,
+      "id": "123",
       "name": "Historic Hall",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Cambridge",
@@ -2485,7 +2485,7 @@
       "createdAt": "2024-08-19T00:21:41.515Z"
     },
     {
-      "id": 124,
+      "id": "124",
       "name": "Rustic Hall",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Boston",
@@ -2505,7 +2505,7 @@
       "createdAt": "2025-01-04T00:21:41.515Z"
     },
     {
-      "id": 125,
+      "id": "125",
       "name": "Vibrant Loft",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Brookline",
@@ -2525,7 +2525,7 @@
       "createdAt": "2024-12-04T00:21:41.515Z"
     },
     {
-      "id": 126,
+      "id": "126",
       "name": "Sleek Space",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Boston",
@@ -2546,7 +2546,7 @@
       "createdAt": "2024-05-29T00:21:41.515Z"
     },
     {
-      "id": 127,
+      "id": "127",
       "name": "Chic Hall",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Salem",
@@ -2568,7 +2568,7 @@
       "createdAt": "2025-11-01T00:21:41.515Z"
     },
     {
-      "id": 128,
+      "id": "128",
       "name": "Intimate Hub",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Quincy",
@@ -2590,7 +2590,7 @@
       "createdAt": "2025-08-28T00:21:41.515Z"
     },
     {
-      "id": 129,
+      "id": "129",
       "name": "Vibrant Studio",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Cambridge",
@@ -2608,7 +2608,7 @@
       "createdAt": "2026-03-31T00:21:41.515Z"
     },
     {
-      "id": 130,
+      "id": "130",
       "name": "Historic Place",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Somerville",
@@ -2627,7 +2627,7 @@
       "createdAt": "2024-12-13T00:21:41.515Z"
     },
     {
-      "id": 131,
+      "id": "131",
       "name": "Elegant Terrace",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Worcester",
@@ -2647,7 +2647,7 @@
       "createdAt": "2026-03-08T00:21:41.515Z"
     },
     {
-      "id": 132,
+      "id": "132",
       "name": "Grand Place",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Providence",
@@ -2669,7 +2669,7 @@
       "createdAt": "2025-09-16T00:21:41.515Z"
     },
     {
-      "id": 133,
+      "id": "133",
       "name": "Cozy Lounge",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Quincy",
@@ -2691,7 +2691,7 @@
       "createdAt": "2025-05-19T00:21:41.515Z"
     },
     {
-      "id": 134,
+      "id": "134",
       "name": "Industrial Lounge",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Providence",
@@ -2713,7 +2713,7 @@
       "createdAt": "2024-09-25T00:21:41.515Z"
     },
     {
-      "id": 135,
+      "id": "135",
       "name": "Spacious Venue",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Worcester",
@@ -2734,7 +2734,7 @@
       "createdAt": "2026-02-11T00:21:41.515Z"
     },
     {
-      "id": 136,
+      "id": "136",
       "name": "Spacious Lounge",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Somerville",
@@ -2755,7 +2755,7 @@
       "createdAt": "2025-12-01T00:21:41.515Z"
     },
     {
-      "id": 137,
+      "id": "137",
       "name": "Historic Terrace",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Worcester",
@@ -2776,7 +2776,7 @@
       "createdAt": "2025-11-15T00:21:41.515Z"
     },
     {
-      "id": 138,
+      "id": "138",
       "name": "Industrial Den",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Providence",
@@ -2794,7 +2794,7 @@
       "createdAt": "2024-10-31T00:21:41.515Z"
     },
     {
-      "id": 139,
+      "id": "139",
       "name": "Vibrant Den",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Quincy",
@@ -2815,7 +2815,7 @@
       "createdAt": "2024-10-29T00:21:41.515Z"
     },
     {
-      "id": 140,
+      "id": "140",
       "name": "Spacious Place",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Worcester",
@@ -2833,7 +2833,7 @@
       "createdAt": "2024-10-16T00:21:41.515Z"
     },
     {
-      "id": 141,
+      "id": "141",
       "name": "Rustic Pavilion",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Brookline",
@@ -2851,7 +2851,7 @@
       "createdAt": "2025-03-11T00:21:41.515Z"
     },
     {
-      "id": 142,
+      "id": "142",
       "name": "Vibrant Lounge",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Quincy",
@@ -2871,7 +2871,7 @@
       "createdAt": "2025-10-24T00:21:41.515Z"
     },
     {
-      "id": 143,
+      "id": "143",
       "name": "Rustic Pavilion",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Newton",
@@ -2890,7 +2890,7 @@
       "createdAt": "2025-08-18T00:21:41.515Z"
     },
     {
-      "id": 144,
+      "id": "144",
       "name": "Vibrant Lounge",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Portland",
@@ -2911,7 +2911,7 @@
       "createdAt": "2024-07-28T00:21:41.515Z"
     },
     {
-      "id": 145,
+      "id": "145",
       "name": "Grand Den",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Cambridge",
@@ -2932,7 +2932,7 @@
       "createdAt": "2025-04-05T00:21:41.515Z"
     },
     {
-      "id": 146,
+      "id": "146",
       "name": "Cozy Venue",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Newton",
@@ -2953,7 +2953,7 @@
       "createdAt": "2025-03-24T00:21:41.515Z"
     },
     {
-      "id": 147,
+      "id": "147",
       "name": "Cozy Hub",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Newton",
@@ -2975,7 +2975,7 @@
       "createdAt": "2024-09-24T00:21:41.515Z"
     },
     {
-      "id": 148,
+      "id": "148",
       "name": "Intimate Hall",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Newton",
@@ -2995,7 +2995,7 @@
       "createdAt": "2024-08-18T00:21:41.515Z"
     },
     {
-      "id": 149,
+      "id": "149",
       "name": "Intimate Room",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Cambridge",
@@ -3017,7 +3017,7 @@
       "createdAt": "2024-08-04T00:21:41.515Z"
     },
     {
-      "id": 150,
+      "id": "150",
       "name": "Contemporary Studio",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Somerville",
@@ -3037,7 +3037,7 @@
       "createdAt": "2025-09-22T00:21:41.515Z"
     },
     {
-      "id": 151,
+      "id": "151",
       "name": "Historic Loft",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Salem",
@@ -3055,7 +3055,7 @@
       "createdAt": "2025-09-29T00:21:41.515Z"
     },
     {
-      "id": 152,
+      "id": "152",
       "name": "Contemporary Gallery",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Somerville",
@@ -3074,7 +3074,7 @@
       "createdAt": "2024-08-20T00:21:41.515Z"
     },
     {
-      "id": 153,
+      "id": "153",
       "name": "Historic Terrace",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Boston",
@@ -3096,7 +3096,7 @@
       "createdAt": "2024-09-09T00:21:41.515Z"
     },
     {
-      "id": 154,
+      "id": "154",
       "name": "Sleek Venue",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Worcester",
@@ -3118,7 +3118,7 @@
       "createdAt": "2025-12-11T00:21:41.515Z"
     },
     {
-      "id": 155,
+      "id": "155",
       "name": "Spacious Hub",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Boston",
@@ -3137,7 +3137,7 @@
       "createdAt": "2024-09-12T00:21:41.515Z"
     },
     {
-      "id": 156,
+      "id": "156",
       "name": "Vibrant Hub",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Portland",
@@ -3157,7 +3157,7 @@
       "createdAt": "2026-01-08T00:21:41.515Z"
     },
     {
-      "id": 157,
+      "id": "157",
       "name": "Contemporary Venue",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Boston",
@@ -3176,7 +3176,7 @@
       "createdAt": "2024-11-25T00:21:41.515Z"
     },
     {
-      "id": 158,
+      "id": "158",
       "name": "Luxurious Terrace",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Boston",
@@ -3198,7 +3198,7 @@
       "createdAt": "2025-06-14T00:21:41.515Z"
     },
     {
-      "id": 159,
+      "id": "159",
       "name": "Modern Place",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Providence",
@@ -3219,7 +3219,7 @@
       "createdAt": "2026-03-05T00:21:41.515Z"
     },
     {
-      "id": 160,
+      "id": "160",
       "name": "Chic Lounge",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Portland",
@@ -3237,7 +3237,7 @@
       "createdAt": "2024-06-21T00:21:41.515Z"
     },
     {
-      "id": 161,
+      "id": "161",
       "name": "Cozy Hall",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Quincy",
@@ -3255,7 +3255,7 @@
       "createdAt": "2025-03-04T00:21:41.515Z"
     },
     {
-      "id": 162,
+      "id": "162",
       "name": "Intimate Loft",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Portland",
@@ -3273,7 +3273,7 @@
       "createdAt": "2026-01-26T00:21:41.515Z"
     },
     {
-      "id": 163,
+      "id": "163",
       "name": "Intimate Suite",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Salem",
@@ -3293,7 +3293,7 @@
       "createdAt": "2024-06-20T00:21:41.515Z"
     },
     {
-      "id": 164,
+      "id": "164",
       "name": "Sleek Pavilion",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Worcester",
@@ -3311,7 +3311,7 @@
       "createdAt": "2024-08-12T00:21:41.515Z"
     },
     {
-      "id": 165,
+      "id": "165",
       "name": "Minimalist Terrace",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Boston",
@@ -3332,7 +3332,7 @@
       "createdAt": "2024-09-13T00:21:41.515Z"
     },
     {
-      "id": 166,
+      "id": "166",
       "name": "Grand Hall",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Salem",
@@ -3354,7 +3354,7 @@
       "createdAt": "2024-06-07T00:21:41.515Z"
     },
     {
-      "id": 167,
+      "id": "167",
       "name": "Rustic Lounge",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Salem",
@@ -3372,7 +3372,7 @@
       "createdAt": "2024-10-14T00:21:41.515Z"
     },
     {
-      "id": 168,
+      "id": "168",
       "name": "Minimalist Loft",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Newton",
@@ -3394,7 +3394,7 @@
       "createdAt": "2025-06-07T00:21:41.515Z"
     },
     {
-      "id": 169,
+      "id": "169",
       "name": "Rustic Venue",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Boston",
@@ -3414,7 +3414,7 @@
       "createdAt": "2024-09-15T00:21:41.515Z"
     },
     {
-      "id": 170,
+      "id": "170",
       "name": "Luxurious Hall",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Somerville",
@@ -3434,7 +3434,7 @@
       "createdAt": "2025-02-10T00:21:41.515Z"
     },
     {
-      "id": 171,
+      "id": "171",
       "name": "Contemporary Loft",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Somerville",
@@ -3452,7 +3452,7 @@
       "createdAt": "2025-03-28T00:21:41.515Z"
     },
     {
-      "id": 172,
+      "id": "172",
       "name": "Minimalist Atrium",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Newton",
@@ -3470,7 +3470,7 @@
       "createdAt": "2025-07-29T00:21:41.515Z"
     },
     {
-      "id": 173,
+      "id": "173",
       "name": "Sleek Suite",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Newton",
@@ -3490,7 +3490,7 @@
       "createdAt": "2025-02-23T00:21:41.515Z"
     },
     {
-      "id": 174,
+      "id": "174",
       "name": "Minimalist Lounge",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Somerville",
@@ -3510,7 +3510,7 @@
       "createdAt": "2025-06-26T00:21:41.515Z"
     },
     {
-      "id": 175,
+      "id": "175",
       "name": "Luxurious Venue",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Worcester",
@@ -3529,7 +3529,7 @@
       "createdAt": "2026-02-09T00:21:41.515Z"
     },
     {
-      "id": 176,
+      "id": "176",
       "name": "Cozy Den",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Providence",
@@ -3550,7 +3550,7 @@
       "createdAt": "2024-08-06T00:21:41.515Z"
     },
     {
-      "id": 177,
+      "id": "177",
       "name": "Spacious Hall",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Somerville",
@@ -3569,7 +3569,7 @@
       "createdAt": "2024-05-19T00:21:41.515Z"
     },
     {
-      "id": 178,
+      "id": "178",
       "name": "Contemporary Gallery",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Somerville",
@@ -3590,7 +3590,7 @@
       "createdAt": "2024-11-01T00:21:41.515Z"
     },
     {
-      "id": 179,
+      "id": "179",
       "name": "Sleek Hall",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Boston",
@@ -3612,7 +3612,7 @@
       "createdAt": "2025-10-29T00:21:41.515Z"
     },
     {
-      "id": 180,
+      "id": "180",
       "name": "Elegant Studio",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Cambridge",
@@ -3632,7 +3632,7 @@
       "createdAt": "2024-08-16T00:21:41.515Z"
     },
     {
-      "id": 181,
+      "id": "181",
       "name": "Grand Terrace",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Somerville",
@@ -3652,7 +3652,7 @@
       "createdAt": "2025-03-21T00:21:41.515Z"
     },
     {
-      "id": 182,
+      "id": "182",
       "name": "Historic Hub",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Providence",
@@ -3670,7 +3670,7 @@
       "createdAt": "2024-12-28T00:21:41.515Z"
     },
     {
-      "id": 183,
+      "id": "183",
       "name": "Cozy Terrace",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Boston",
@@ -3692,7 +3692,7 @@
       "createdAt": "2024-05-25T00:21:41.515Z"
     },
     {
-      "id": 184,
+      "id": "184",
       "name": "Minimalist Hall",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Brookline",
@@ -3711,7 +3711,7 @@
       "createdAt": "2025-08-23T00:21:41.515Z"
     },
     {
-      "id": 185,
+      "id": "185",
       "name": "Cozy Lounge",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Boston",
@@ -3729,7 +3729,7 @@
       "createdAt": "2026-02-05T00:21:41.515Z"
     },
     {
-      "id": 186,
+      "id": "186",
       "name": "Industrial Lounge",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Boston",
@@ -3747,7 +3747,7 @@
       "createdAt": "2026-01-06T00:21:41.515Z"
     },
     {
-      "id": 187,
+      "id": "187",
       "name": "Chic Lounge",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Somerville",
@@ -3768,7 +3768,7 @@
       "createdAt": "2025-09-12T00:21:41.515Z"
     },
     {
-      "id": 188,
+      "id": "188",
       "name": "Sleek Suite",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Newton",
@@ -3787,7 +3787,7 @@
       "createdAt": "2024-09-30T00:21:41.515Z"
     },
     {
-      "id": 189,
+      "id": "189",
       "name": "Minimalist Space",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Cambridge",
@@ -3807,7 +3807,7 @@
       "createdAt": "2024-06-26T00:21:41.515Z"
     },
     {
-      "id": 190,
+      "id": "190",
       "name": "Spacious Atrium",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Quincy",
@@ -3828,7 +3828,7 @@
       "createdAt": "2024-11-25T00:21:41.515Z"
     },
     {
-      "id": 191,
+      "id": "191",
       "name": "Chic Terrace",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Salem",
@@ -3847,7 +3847,7 @@
       "createdAt": "2025-01-29T00:21:41.515Z"
     },
     {
-      "id": 192,
+      "id": "192",
       "name": "Vibrant Lounge",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Providence",
@@ -3869,7 +3869,7 @@
       "createdAt": "2024-04-16T00:21:41.515Z"
     },
     {
-      "id": 193,
+      "id": "193",
       "name": "Spacious Space",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Somerville",
@@ -3887,7 +3887,7 @@
       "createdAt": "2024-08-29T00:21:41.515Z"
     },
     {
-      "id": 194,
+      "id": "194",
       "name": "Industrial Lounge",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Boston",
@@ -3905,7 +3905,7 @@
       "createdAt": "2025-04-04T00:21:41.515Z"
     },
     {
-      "id": 195,
+      "id": "195",
       "name": "Grand Loft",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Newton",
@@ -3923,7 +3923,7 @@
       "createdAt": "2024-10-12T00:21:41.515Z"
     },
     {
-      "id": 196,
+      "id": "196",
       "name": "Spacious Gallery",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Cambridge",
@@ -3945,7 +3945,7 @@
       "createdAt": "2025-09-20T00:21:41.515Z"
     },
     {
-      "id": 197,
+      "id": "197",
       "name": "Intimate Studio",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Salem",
@@ -3964,7 +3964,7 @@
       "createdAt": "2025-04-14T00:21:41.515Z"
     },
     {
-      "id": 198,
+      "id": "198",
       "name": "Rustic Place",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Somerville",
@@ -3984,7 +3984,7 @@
       "createdAt": "2025-03-09T00:21:41.515Z"
     },
     {
-      "id": 199,
+      "id": "199",
       "name": "Minimalist Space",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Somerville",
@@ -4006,7 +4006,7 @@
       "createdAt": "2025-12-11T00:21:41.515Z"
     },
     {
-      "id": 200,
+      "id": "200",
       "name": "Chic Gallery",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Boston",
@@ -4025,7 +4025,7 @@
       "createdAt": "2024-12-18T00:21:41.515Z"
     },
     {
-      "id": 201,
+      "id": "201",
       "name": "Minimalist Atrium",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Quincy",
@@ -4046,7 +4046,7 @@
       "createdAt": "2024-04-16T00:21:41.515Z"
     },
     {
-      "id": 202,
+      "id": "202",
       "name": "Vibrant Hub",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Providence",
@@ -4064,7 +4064,7 @@
       "createdAt": "2025-10-31T00:21:41.515Z"
     },
     {
-      "id": 203,
+      "id": "203",
       "name": "Historic Den",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Cambridge",
@@ -4086,7 +4086,7 @@
       "createdAt": "2024-04-27T00:21:41.515Z"
     },
     {
-      "id": 204,
+      "id": "204",
       "name": "Modern Studio",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Cambridge",
@@ -4104,7 +4104,7 @@
       "createdAt": "2026-02-07T00:21:41.515Z"
     },
     {
-      "id": 205,
+      "id": "205",
       "name": "Spacious Hub",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Cambridge",
@@ -4125,7 +4125,7 @@
       "createdAt": "2025-08-12T00:21:41.515Z"
     },
     {
-      "id": 206,
+      "id": "206",
       "name": "Intimate Lounge",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Salem",
@@ -4143,7 +4143,7 @@
       "createdAt": "2024-07-28T00:21:41.515Z"
     },
     {
-      "id": 207,
+      "id": "207",
       "name": "Luxurious Space",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Boston",
@@ -4165,7 +4165,7 @@
       "createdAt": "2026-01-14T00:21:41.515Z"
     },
     {
-      "id": 208,
+      "id": "208",
       "name": "Minimalist Place",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Newton",
@@ -4183,7 +4183,7 @@
       "createdAt": "2026-04-06T00:21:41.515Z"
     },
     {
-      "id": 209,
+      "id": "209",
       "name": "Vibrant Studio",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Boston",
@@ -4201,7 +4201,7 @@
       "createdAt": "2024-06-27T00:21:41.515Z"
     },
     {
-      "id": 210,
+      "id": "210",
       "name": "Industrial Loft",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Portland",
@@ -4221,7 +4221,7 @@
       "createdAt": "2026-01-24T00:21:41.515Z"
     },
     {
-      "id": 211,
+      "id": "211",
       "name": "Grand Terrace",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Newton",
@@ -4239,7 +4239,7 @@
       "createdAt": "2025-06-06T00:21:41.515Z"
     },
     {
-      "id": 212,
+      "id": "212",
       "name": "Industrial Place",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Quincy",
@@ -4258,7 +4258,7 @@
       "createdAt": "2025-03-31T00:21:41.515Z"
     },
     {
-      "id": 213,
+      "id": "213",
       "name": "Spacious Gallery",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Somerville",
@@ -4276,7 +4276,7 @@
       "createdAt": "2026-02-16T00:21:41.515Z"
     },
     {
-      "id": 214,
+      "id": "214",
       "name": "Luxurious Studio",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Brookline",
@@ -4298,7 +4298,7 @@
       "createdAt": "2025-05-27T00:21:41.515Z"
     },
     {
-      "id": 215,
+      "id": "215",
       "name": "Historic Suite",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Worcester",
@@ -4318,7 +4318,7 @@
       "createdAt": "2026-02-21T00:21:41.515Z"
     },
     {
-      "id": 216,
+      "id": "216",
       "name": "Luxurious Lounge",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Providence",
@@ -4340,7 +4340,7 @@
       "createdAt": "2024-10-09T00:21:41.515Z"
     },
     {
-      "id": 217,
+      "id": "217",
       "name": "Modern Hall",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Quincy",
@@ -4361,7 +4361,7 @@
       "createdAt": "2026-03-06T00:21:41.515Z"
     },
     {
-      "id": 218,
+      "id": "218",
       "name": "Vibrant Space",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Worcester",
@@ -4379,7 +4379,7 @@
       "createdAt": "2024-07-17T00:21:41.515Z"
     },
     {
-      "id": 219,
+      "id": "219",
       "name": "Sleek Hub",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Providence",
@@ -4400,7 +4400,7 @@
       "createdAt": "2025-03-27T00:21:41.515Z"
     },
     {
-      "id": 220,
+      "id": "220",
       "name": "Minimalist Suite",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Newton",
@@ -4420,7 +4420,7 @@
       "createdAt": "2025-04-08T00:21:41.515Z"
     },
     {
-      "id": 221,
+      "id": "221",
       "name": "Historic Hall",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Newton",
@@ -4440,7 +4440,7 @@
       "createdAt": "2024-10-09T00:21:41.515Z"
     },
     {
-      "id": 222,
+      "id": "222",
       "name": "Minimalist Hub",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Boston",
@@ -4461,7 +4461,7 @@
       "createdAt": "2024-08-24T00:21:41.515Z"
     },
     {
-      "id": 223,
+      "id": "223",
       "name": "Modern Hub",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Newton",
@@ -4483,7 +4483,7 @@
       "createdAt": "2024-12-18T00:21:41.515Z"
     },
     {
-      "id": 224,
+      "id": "224",
       "name": "Chic Loft",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Boston",
@@ -4502,7 +4502,7 @@
       "createdAt": "2026-04-01T00:21:41.515Z"
     },
     {
-      "id": 225,
+      "id": "225",
       "name": "Modern Gallery",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Somerville",
@@ -4523,7 +4523,7 @@
       "createdAt": "2025-05-01T00:21:41.515Z"
     },
     {
-      "id": 226,
+      "id": "226",
       "name": "Industrial Gallery",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Providence",
@@ -4542,7 +4542,7 @@
       "createdAt": "2025-06-01T00:21:41.515Z"
     },
     {
-      "id": 227,
+      "id": "227",
       "name": "Spacious Terrace",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Somerville",
@@ -4560,7 +4560,7 @@
       "createdAt": "2025-11-16T00:21:41.515Z"
     },
     {
-      "id": 228,
+      "id": "228",
       "name": "Rustic Hub",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Portland",
@@ -4582,7 +4582,7 @@
       "createdAt": "2024-09-29T00:21:41.516Z"
     },
     {
-      "id": 229,
+      "id": "229",
       "name": "Luxurious Den",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Quincy",
@@ -4603,7 +4603,7 @@
       "createdAt": "2026-01-27T00:21:41.516Z"
     },
     {
-      "id": 230,
+      "id": "230",
       "name": "Intimate Room",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Salem",
@@ -4622,7 +4622,7 @@
       "createdAt": "2024-06-24T00:21:41.516Z"
     },
     {
-      "id": 231,
+      "id": "231",
       "name": "Vibrant Hall",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Worcester",
@@ -4643,7 +4643,7 @@
       "createdAt": "2024-04-29T00:21:41.516Z"
     },
     {
-      "id": 232,
+      "id": "232",
       "name": "Minimalist Gallery",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Quincy",
@@ -4665,7 +4665,7 @@
       "createdAt": "2025-06-15T00:21:41.516Z"
     },
     {
-      "id": 233,
+      "id": "233",
       "name": "Spacious Den",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Salem",
@@ -4683,7 +4683,7 @@
       "createdAt": "2025-05-20T00:21:41.516Z"
     },
     {
-      "id": 234,
+      "id": "234",
       "name": "Rustic Place",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Newton",
@@ -4702,7 +4702,7 @@
       "createdAt": "2025-07-26T00:21:41.516Z"
     },
     {
-      "id": 235,
+      "id": "235",
       "name": "Modern Room",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Salem",
@@ -4721,7 +4721,7 @@
       "createdAt": "2024-07-05T00:21:41.516Z"
     },
     {
-      "id": 236,
+      "id": "236",
       "name": "Vibrant Room",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Cambridge",
@@ -4743,7 +4743,7 @@
       "createdAt": "2026-03-29T00:21:41.516Z"
     },
     {
-      "id": 237,
+      "id": "237",
       "name": "Spacious Room",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Portland",
@@ -4765,7 +4765,7 @@
       "createdAt": "2025-06-10T00:21:41.516Z"
     },
     {
-      "id": 238,
+      "id": "238",
       "name": "Luxurious Hall",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Boston",
@@ -4787,7 +4787,7 @@
       "createdAt": "2026-04-01T00:21:41.516Z"
     },
     {
-      "id": 239,
+      "id": "239",
       "name": "Cozy Hall",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Cambridge",
@@ -4806,7 +4806,7 @@
       "createdAt": "2026-03-14T00:21:41.516Z"
     },
     {
-      "id": 240,
+      "id": "240",
       "name": "Elegant Den",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Worcester",
@@ -4824,7 +4824,7 @@
       "createdAt": "2026-01-28T00:21:41.516Z"
     },
     {
-      "id": 241,
+      "id": "241",
       "name": "Vibrant Room",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Portland",
@@ -4844,7 +4844,7 @@
       "createdAt": "2025-09-14T00:21:41.516Z"
     },
     {
-      "id": 242,
+      "id": "242",
       "name": "Contemporary Studio",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Providence",
@@ -4864,7 +4864,7 @@
       "createdAt": "2026-01-06T00:21:41.516Z"
     },
     {
-      "id": 243,
+      "id": "243",
       "name": "Intimate Atrium",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Newton",
@@ -4884,7 +4884,7 @@
       "createdAt": "2026-01-21T00:21:41.516Z"
     },
     {
-      "id": 244,
+      "id": "244",
       "name": "Cozy Venue",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Worcester",
@@ -4905,7 +4905,7 @@
       "createdAt": "2024-10-08T00:21:41.516Z"
     },
     {
-      "id": 245,
+      "id": "245",
       "name": "Spacious Gallery",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Portland",
@@ -4925,7 +4925,7 @@
       "createdAt": "2024-05-26T00:21:41.516Z"
     },
     {
-      "id": 246,
+      "id": "246",
       "name": "Intimate Loft",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Somerville",
@@ -4947,7 +4947,7 @@
       "createdAt": "2026-03-28T00:21:41.516Z"
     },
     {
-      "id": 247,
+      "id": "247",
       "name": "Grand Atrium",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Brookline",
@@ -4969,7 +4969,7 @@
       "createdAt": "2025-09-07T00:21:41.516Z"
     },
     {
-      "id": 248,
+      "id": "248",
       "name": "Sleek Place",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Boston",
@@ -4987,7 +4987,7 @@
       "createdAt": "2025-07-13T00:21:41.516Z"
     },
     {
-      "id": 249,
+      "id": "249",
       "name": "Sleek Lounge",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Cambridge",
@@ -5006,7 +5006,7 @@
       "createdAt": "2025-05-26T00:21:41.516Z"
     },
     {
-      "id": 250,
+      "id": "250",
       "name": "Elegant Place",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Newton",
@@ -5024,7 +5024,7 @@
       "createdAt": "2025-04-04T00:21:41.516Z"
     },
     {
-      "id": 251,
+      "id": "251",
       "name": "Chic Hub",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Cambridge",
@@ -5046,7 +5046,7 @@
       "createdAt": "2024-10-04T00:21:41.516Z"
     },
     {
-      "id": 252,
+      "id": "252",
       "name": "Modern Venue",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Brookline",
@@ -5068,7 +5068,7 @@
       "createdAt": "2026-03-17T00:21:41.516Z"
     },
     {
-      "id": 253,
+      "id": "253",
       "name": "Sleek Gallery",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Newton",
@@ -5088,7 +5088,7 @@
       "createdAt": "2026-01-16T00:21:41.516Z"
     },
     {
-      "id": 254,
+      "id": "254",
       "name": "Elegant Atrium",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Worcester",
@@ -5107,7 +5107,7 @@
       "createdAt": "2025-12-14T00:21:41.516Z"
     },
     {
-      "id": 255,
+      "id": "255",
       "name": "Rustic Gallery",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Newton",
@@ -5127,7 +5127,7 @@
       "createdAt": "2025-02-17T00:21:41.516Z"
     },
     {
-      "id": 256,
+      "id": "256",
       "name": "Sleek Loft",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Somerville",
@@ -5148,7 +5148,7 @@
       "createdAt": "2025-08-26T00:21:41.516Z"
     },
     {
-      "id": 257,
+      "id": "257",
       "name": "Elegant Loft",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Newton",
@@ -5166,7 +5166,7 @@
       "createdAt": "2025-02-23T00:21:41.516Z"
     },
     {
-      "id": 258,
+      "id": "258",
       "name": "Grand Terrace",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Providence",
@@ -5188,7 +5188,7 @@
       "createdAt": "2024-12-20T00:21:41.516Z"
     },
     {
-      "id": 259,
+      "id": "259",
       "name": "Intimate Venue",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Boston",
@@ -5207,7 +5207,7 @@
       "createdAt": "2024-05-22T00:21:41.516Z"
     },
     {
-      "id": 260,
+      "id": "260",
       "name": "Historic Terrace",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Worcester",
@@ -5226,7 +5226,7 @@
       "createdAt": "2025-01-01T00:21:41.516Z"
     },
     {
-      "id": 261,
+      "id": "261",
       "name": "Modern Lounge",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Quincy",
@@ -5244,7 +5244,7 @@
       "createdAt": "2025-02-25T00:21:41.516Z"
     },
     {
-      "id": 262,
+      "id": "262",
       "name": "Industrial Terrace",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Providence",
@@ -5262,7 +5262,7 @@
       "createdAt": "2025-01-04T00:21:41.516Z"
     },
     {
-      "id": 263,
+      "id": "263",
       "name": "Rustic Space",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Portland",
@@ -5283,7 +5283,7 @@
       "createdAt": "2025-11-20T00:21:41.516Z"
     },
     {
-      "id": 264,
+      "id": "264",
       "name": "Minimalist Pavilion",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Brookline",
@@ -5302,7 +5302,7 @@
       "createdAt": "2025-09-11T00:21:41.516Z"
     },
     {
-      "id": 265,
+      "id": "265",
       "name": "Intimate Pavilion",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Somerville",
@@ -5321,7 +5321,7 @@
       "createdAt": "2025-11-23T00:21:41.516Z"
     },
     {
-      "id": 266,
+      "id": "266",
       "name": "Modern Venue",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Cambridge",
@@ -5339,7 +5339,7 @@
       "createdAt": "2024-10-27T00:21:41.516Z"
     },
     {
-      "id": 267,
+      "id": "267",
       "name": "Grand Venue",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Boston",
@@ -5361,7 +5361,7 @@
       "createdAt": "2025-03-10T00:21:41.516Z"
     },
     {
-      "id": 268,
+      "id": "268",
       "name": "Grand Lounge",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Salem",
@@ -5379,7 +5379,7 @@
       "createdAt": "2024-12-05T00:21:41.516Z"
     },
     {
-      "id": 269,
+      "id": "269",
       "name": "Spacious Hub",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Salem",
@@ -5398,7 +5398,7 @@
       "createdAt": "2025-06-14T00:21:41.516Z"
     },
     {
-      "id": 270,
+      "id": "270",
       "name": "Minimalist Hub",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Brookline",
@@ -5418,7 +5418,7 @@
       "createdAt": "2024-11-13T00:21:41.516Z"
     },
     {
-      "id": 271,
+      "id": "271",
       "name": "Industrial Pavilion",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Portland",
@@ -5437,7 +5437,7 @@
       "createdAt": "2025-07-18T00:21:41.516Z"
     },
     {
-      "id": 272,
+      "id": "272",
       "name": "Minimalist Place",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Providence",
@@ -5457,7 +5457,7 @@
       "createdAt": "2025-02-08T00:21:41.516Z"
     },
     {
-      "id": 273,
+      "id": "273",
       "name": "Chic Loft",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Newton",
@@ -5476,7 +5476,7 @@
       "createdAt": "2024-05-08T00:21:41.516Z"
     },
     {
-      "id": 274,
+      "id": "274",
       "name": "Contemporary Den",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Brookline",
@@ -5497,7 +5497,7 @@
       "createdAt": "2025-05-17T00:21:41.516Z"
     },
     {
-      "id": 275,
+      "id": "275",
       "name": "Industrial Gallery",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Worcester",
@@ -5519,7 +5519,7 @@
       "createdAt": "2026-01-01T00:21:41.516Z"
     },
     {
-      "id": 276,
+      "id": "276",
       "name": "Intimate Lounge",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Newton",
@@ -5537,7 +5537,7 @@
       "createdAt": "2024-09-10T00:21:41.516Z"
     },
     {
-      "id": 277,
+      "id": "277",
       "name": "Historic Place",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Cambridge",
@@ -5557,7 +5557,7 @@
       "createdAt": "2025-03-01T00:21:41.516Z"
     },
     {
-      "id": 278,
+      "id": "278",
       "name": "Cozy Terrace",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Boston",
@@ -5577,7 +5577,7 @@
       "createdAt": "2025-01-21T00:21:41.516Z"
     },
     {
-      "id": 279,
+      "id": "279",
       "name": "Minimalist Hub",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Portland",
@@ -5596,7 +5596,7 @@
       "createdAt": "2026-01-12T00:21:41.516Z"
     },
     {
-      "id": 280,
+      "id": "280",
       "name": "Chic Gallery",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Brookline",
@@ -5617,7 +5617,7 @@
       "createdAt": "2024-08-14T00:21:41.516Z"
     },
     {
-      "id": 281,
+      "id": "281",
       "name": "Industrial Hall",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Somerville",
@@ -5637,7 +5637,7 @@
       "createdAt": "2024-10-01T00:21:41.516Z"
     },
     {
-      "id": 282,
+      "id": "282",
       "name": "Rustic Hall",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Somerville",
@@ -5659,7 +5659,7 @@
       "createdAt": "2024-07-04T00:21:41.516Z"
     },
     {
-      "id": 283,
+      "id": "283",
       "name": "Sleek Loft",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Worcester",
@@ -5681,7 +5681,7 @@
       "createdAt": "2024-04-22T00:21:41.516Z"
     },
     {
-      "id": 284,
+      "id": "284",
       "name": "Spacious Atrium",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Brookline",
@@ -5702,7 +5702,7 @@
       "createdAt": "2025-11-15T00:21:41.516Z"
     },
     {
-      "id": 285,
+      "id": "285",
       "name": "Elegant Studio",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Boston",
@@ -5723,7 +5723,7 @@
       "createdAt": "2024-11-27T00:21:41.516Z"
     },
     {
-      "id": 286,
+      "id": "286",
       "name": "Sleek Studio",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Newton",
@@ -5742,7 +5742,7 @@
       "createdAt": "2025-04-02T00:21:41.516Z"
     },
     {
-      "id": 287,
+      "id": "287",
       "name": "Historic Room",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Boston",
@@ -5761,7 +5761,7 @@
       "createdAt": "2025-02-01T00:21:41.516Z"
     },
     {
-      "id": 288,
+      "id": "288",
       "name": "Spacious Space",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Salem",
@@ -5782,7 +5782,7 @@
       "createdAt": "2025-12-10T00:21:41.516Z"
     },
     {
-      "id": 289,
+      "id": "289",
       "name": "Rustic Space",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Cambridge",
@@ -5804,7 +5804,7 @@
       "createdAt": "2024-07-17T00:21:41.516Z"
     },
     {
-      "id": 290,
+      "id": "290",
       "name": "Industrial Gallery",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Newton",
@@ -5822,7 +5822,7 @@
       "createdAt": "2025-11-22T00:21:41.516Z"
     },
     {
-      "id": 291,
+      "id": "291",
       "name": "Minimalist Lounge",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Worcester",
@@ -5840,7 +5840,7 @@
       "createdAt": "2025-12-08T00:21:41.516Z"
     },
     {
-      "id": 292,
+      "id": "292",
       "name": "Intimate Pavilion",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Worcester",
@@ -5858,7 +5858,7 @@
       "createdAt": "2024-05-26T00:21:41.516Z"
     },
     {
-      "id": 293,
+      "id": "293",
       "name": "Historic Gallery",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Salem",
@@ -5878,7 +5878,7 @@
       "createdAt": "2026-04-05T00:21:41.516Z"
     },
     {
-      "id": 294,
+      "id": "294",
       "name": "Modern Place",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Boston",
@@ -5896,7 +5896,7 @@
       "createdAt": "2024-10-31T00:21:41.516Z"
     },
     {
-      "id": 295,
+      "id": "295",
       "name": "Rustic Gallery",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Portland",
@@ -5914,7 +5914,7 @@
       "createdAt": "2025-03-16T00:21:41.516Z"
     },
     {
-      "id": 296,
+      "id": "296",
       "name": "Sleek Lounge",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Salem",
@@ -5933,7 +5933,7 @@
       "createdAt": "2024-10-16T00:21:41.516Z"
     },
     {
-      "id": 297,
+      "id": "297",
       "name": "Contemporary Loft",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Quincy",
@@ -5953,7 +5953,7 @@
       "createdAt": "2024-04-25T00:21:41.516Z"
     },
     {
-      "id": 298,
+      "id": "298",
       "name": "Elegant Den",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Somerville",
@@ -5973,7 +5973,7 @@
       "createdAt": "2025-01-03T00:21:41.516Z"
     },
     {
-      "id": 299,
+      "id": "299",
       "name": "Industrial Hub",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Worcester",
@@ -5994,7 +5994,7 @@
       "createdAt": "2025-11-13T00:21:41.516Z"
     },
     {
-      "id": 300,
+      "id": "300",
       "name": "Industrial Hall",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Salem",
@@ -6013,7 +6013,7 @@
       "createdAt": "2025-10-16T00:21:41.516Z"
     },
     {
-      "id": 301,
+      "id": "301",
       "name": "Modern Atrium",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Cambridge",
@@ -6032,7 +6032,7 @@
       "createdAt": "2025-04-02T00:21:41.516Z"
     },
     {
-      "id": 302,
+      "id": "302",
       "name": "Elegant Hub",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Quincy",
@@ -6052,7 +6052,7 @@
       "createdAt": "2026-03-05T00:21:41.516Z"
     },
     {
-      "id": 303,
+      "id": "303",
       "name": "Elegant Lounge",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Brookline",
@@ -6071,7 +6071,7 @@
       "createdAt": "2024-12-23T00:21:41.516Z"
     },
     {
-      "id": 304,
+      "id": "304",
       "name": "Luxurious Loft",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Portland",
@@ -6091,7 +6091,7 @@
       "createdAt": "2025-06-04T00:21:41.516Z"
     },
     {
-      "id": 305,
+      "id": "305",
       "name": "Rustic Space",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Cambridge",
@@ -6111,7 +6111,7 @@
       "createdAt": "2025-06-03T00:21:41.516Z"
     },
     {
-      "id": 306,
+      "id": "306",
       "name": "Vibrant Suite",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Quincy",
@@ -6133,7 +6133,7 @@
       "createdAt": "2025-02-01T00:21:41.516Z"
     },
     {
-      "id": 307,
+      "id": "307",
       "name": "Elegant Gallery",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Somerville",
@@ -6155,7 +6155,7 @@
       "createdAt": "2026-03-03T00:21:41.516Z"
     },
     {
-      "id": 308,
+      "id": "308",
       "name": "Historic Pavilion",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Providence",
@@ -6175,7 +6175,7 @@
       "createdAt": "2024-12-28T00:21:41.516Z"
     },
     {
-      "id": 309,
+      "id": "309",
       "name": "Intimate Space",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Brookline",
@@ -6197,7 +6197,7 @@
       "createdAt": "2024-09-30T00:21:41.516Z"
     },
     {
-      "id": 310,
+      "id": "310",
       "name": "Historic Room",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Providence",
@@ -6215,7 +6215,7 @@
       "createdAt": "2025-09-24T00:21:41.516Z"
     },
     {
-      "id": 311,
+      "id": "311",
       "name": "Grand Atrium",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Cambridge",
@@ -6234,7 +6234,7 @@
       "createdAt": "2025-01-25T00:21:41.516Z"
     },
     {
-      "id": 312,
+      "id": "312",
       "name": "Industrial Space",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Portland",
@@ -6255,7 +6255,7 @@
       "createdAt": "2024-05-09T00:21:41.516Z"
     },
     {
-      "id": 313,
+      "id": "313",
       "name": "Spacious Gallery",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Somerville",
@@ -6273,7 +6273,7 @@
       "createdAt": "2024-12-02T00:21:41.516Z"
     },
     {
-      "id": 314,
+      "id": "314",
       "name": "Vibrant Loft",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Somerville",
@@ -6292,7 +6292,7 @@
       "createdAt": "2025-07-01T00:21:41.516Z"
     },
     {
-      "id": 315,
+      "id": "315",
       "name": "Cozy Hall",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Boston",
@@ -6313,7 +6313,7 @@
       "createdAt": "2025-08-24T00:21:41.516Z"
     },
     {
-      "id": 316,
+      "id": "316",
       "name": "Minimalist Space",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Providence",
@@ -6333,7 +6333,7 @@
       "createdAt": "2026-01-24T00:21:41.516Z"
     },
     {
-      "id": 317,
+      "id": "317",
       "name": "Minimalist Hub",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Somerville",
@@ -6352,7 +6352,7 @@
       "createdAt": "2024-09-20T00:21:41.516Z"
     },
     {
-      "id": 318,
+      "id": "318",
       "name": "Spacious Hall",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Worcester",
@@ -6371,7 +6371,7 @@
       "createdAt": "2025-02-03T00:21:41.516Z"
     },
     {
-      "id": 319,
+      "id": "319",
       "name": "Chic Terrace",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Worcester",
@@ -6390,7 +6390,7 @@
       "createdAt": "2026-02-17T00:21:41.516Z"
     },
     {
-      "id": 320,
+      "id": "320",
       "name": "Luxurious Space",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Quincy",
@@ -6409,7 +6409,7 @@
       "createdAt": "2025-07-29T00:21:41.516Z"
     },
     {
-      "id": 321,
+      "id": "321",
       "name": "Elegant Place",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Boston",
@@ -6429,7 +6429,7 @@
       "createdAt": "2025-09-08T00:21:41.516Z"
     },
     {
-      "id": 322,
+      "id": "322",
       "name": "Rustic Lounge",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Portland",
@@ -6450,7 +6450,7 @@
       "createdAt": "2024-09-05T00:21:41.516Z"
     },
     {
-      "id": 323,
+      "id": "323",
       "name": "Rustic Venue",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Providence",
@@ -6471,7 +6471,7 @@
       "createdAt": "2024-10-17T00:21:41.516Z"
     },
     {
-      "id": 324,
+      "id": "324",
       "name": "Grand Atrium",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Newton",
@@ -6493,7 +6493,7 @@
       "createdAt": "2024-07-24T00:21:41.516Z"
     },
     {
-      "id": 325,
+      "id": "325",
       "name": "Intimate Studio",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Providence",
@@ -6515,7 +6515,7 @@
       "createdAt": "2024-06-29T00:21:41.516Z"
     },
     {
-      "id": 326,
+      "id": "326",
       "name": "Elegant Den",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Quincy",
@@ -6534,7 +6534,7 @@
       "createdAt": "2025-07-27T00:21:41.516Z"
     },
     {
-      "id": 327,
+      "id": "327",
       "name": "Intimate Hall",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Brookline",
@@ -6553,7 +6553,7 @@
       "createdAt": "2026-03-19T00:21:41.516Z"
     },
     {
-      "id": 328,
+      "id": "328",
       "name": "Elegant Hub",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Cambridge",
@@ -6571,7 +6571,7 @@
       "createdAt": "2024-10-09T00:21:41.516Z"
     },
     {
-      "id": 329,
+      "id": "329",
       "name": "Luxurious Hub",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Boston",
@@ -6593,7 +6593,7 @@
       "createdAt": "2024-11-18T00:21:41.516Z"
     },
     {
-      "id": 330,
+      "id": "330",
       "name": "Historic Gallery",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Newton",
@@ -6615,7 +6615,7 @@
       "createdAt": "2026-04-09T00:21:41.516Z"
     },
     {
-      "id": 331,
+      "id": "331",
       "name": "Chic Hub",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Quincy",
@@ -6634,7 +6634,7 @@
       "createdAt": "2025-01-06T00:21:41.516Z"
     },
     {
-      "id": 332,
+      "id": "332",
       "name": "Historic Studio",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Portland",
@@ -6653,7 +6653,7 @@
       "createdAt": "2025-02-20T00:21:41.516Z"
     },
     {
-      "id": 333,
+      "id": "333",
       "name": "Industrial Room",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Providence",
@@ -6674,7 +6674,7 @@
       "createdAt": "2024-12-15T00:21:41.516Z"
     },
     {
-      "id": 334,
+      "id": "334",
       "name": "Intimate Studio",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Cambridge",
@@ -6696,7 +6696,7 @@
       "createdAt": "2024-10-07T00:21:41.516Z"
     },
     {
-      "id": 335,
+      "id": "335",
       "name": "Sleek Suite",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Portland",
@@ -6714,7 +6714,7 @@
       "createdAt": "2025-09-16T00:21:41.516Z"
     },
     {
-      "id": 336,
+      "id": "336",
       "name": "Elegant Pavilion",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Salem",
@@ -6734,7 +6734,7 @@
       "createdAt": "2025-01-15T00:21:41.516Z"
     },
     {
-      "id": 337,
+      "id": "337",
       "name": "Luxurious Hub",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Providence",
@@ -6754,7 +6754,7 @@
       "createdAt": "2024-12-18T00:21:41.516Z"
     },
     {
-      "id": 338,
+      "id": "338",
       "name": "Rustic Den",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Salem",
@@ -6774,7 +6774,7 @@
       "createdAt": "2026-02-27T00:21:41.516Z"
     },
     {
-      "id": 339,
+      "id": "339",
       "name": "Minimalist Pavilion",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Brookline",
@@ -6796,7 +6796,7 @@
       "createdAt": "2025-07-29T00:21:41.516Z"
     },
     {
-      "id": 340,
+      "id": "340",
       "name": "Luxurious Hall",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Newton",
@@ -6818,7 +6818,7 @@
       "createdAt": "2024-11-22T00:21:41.516Z"
     },
     {
-      "id": 341,
+      "id": "341",
       "name": "Historic Terrace",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Salem",
@@ -6837,7 +6837,7 @@
       "createdAt": "2024-08-24T00:21:41.516Z"
     },
     {
-      "id": 342,
+      "id": "342",
       "name": "Sleek Studio",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Worcester",
@@ -6859,7 +6859,7 @@
       "createdAt": "2024-05-28T00:21:41.516Z"
     },
     {
-      "id": 343,
+      "id": "343",
       "name": "Historic Place",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Cambridge",
@@ -6877,7 +6877,7 @@
       "createdAt": "2025-02-28T00:21:41.516Z"
     },
     {
-      "id": 344,
+      "id": "344",
       "name": "Chic Den",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Somerville",
@@ -6896,7 +6896,7 @@
       "createdAt": "2025-02-15T00:21:41.516Z"
     },
     {
-      "id": 345,
+      "id": "345",
       "name": "Cozy Lounge",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Worcester",
@@ -6917,7 +6917,7 @@
       "createdAt": "2024-08-02T00:21:41.516Z"
     },
     {
-      "id": 346,
+      "id": "346",
       "name": "Grand Hall",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Brookline",
@@ -6938,7 +6938,7 @@
       "createdAt": "2024-04-14T00:21:41.516Z"
     },
     {
-      "id": 347,
+      "id": "347",
       "name": "Modern Place",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Newton",
@@ -6960,7 +6960,7 @@
       "createdAt": "2025-05-22T00:21:41.516Z"
     },
     {
-      "id": 348,
+      "id": "348",
       "name": "Industrial Room",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Brookline",
@@ -6982,7 +6982,7 @@
       "createdAt": "2024-09-20T00:21:41.516Z"
     },
     {
-      "id": 349,
+      "id": "349",
       "name": "Contemporary Terrace",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Somerville",
@@ -7004,7 +7004,7 @@
       "createdAt": "2024-05-31T00:21:41.516Z"
     },
     {
-      "id": 350,
+      "id": "350",
       "name": "Luxurious Place",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Portland",
@@ -7023,7 +7023,7 @@
       "createdAt": "2025-05-28T00:21:41.516Z"
     },
     {
-      "id": 351,
+      "id": "351",
       "name": "Chic Space",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Providence",
@@ -7042,7 +7042,7 @@
       "createdAt": "2024-07-04T00:21:41.516Z"
     },
     {
-      "id": 352,
+      "id": "352",
       "name": "Cozy Hall",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Salem",
@@ -7063,7 +7063,7 @@
       "createdAt": "2025-05-01T00:21:41.516Z"
     },
     {
-      "id": 353,
+      "id": "353",
       "name": "Grand Atrium",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Somerville",
@@ -7084,7 +7084,7 @@
       "createdAt": "2026-02-02T00:21:41.516Z"
     },
     {
-      "id": 354,
+      "id": "354",
       "name": "Cozy Space",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Cambridge",
@@ -7102,7 +7102,7 @@
       "createdAt": "2025-05-26T00:21:41.516Z"
     },
     {
-      "id": 355,
+      "id": "355",
       "name": "Contemporary Venue",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Providence",
@@ -7123,7 +7123,7 @@
       "createdAt": "2025-12-12T00:21:41.516Z"
     },
     {
-      "id": 356,
+      "id": "356",
       "name": "Sleek Den",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Newton",
@@ -7142,7 +7142,7 @@
       "createdAt": "2025-06-13T00:21:41.516Z"
     },
     {
-      "id": 357,
+      "id": "357",
       "name": "Minimalist Loft",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Portland",
@@ -7160,7 +7160,7 @@
       "createdAt": "2025-01-22T00:21:41.516Z"
     },
     {
-      "id": 358,
+      "id": "358",
       "name": "Elegant Place",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Cambridge",
@@ -7178,7 +7178,7 @@
       "createdAt": "2025-06-06T00:21:41.516Z"
     },
     {
-      "id": 359,
+      "id": "359",
       "name": "Chic Loft",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Somerville",
@@ -7198,7 +7198,7 @@
       "createdAt": "2025-08-22T00:21:41.516Z"
     },
     {
-      "id": 360,
+      "id": "360",
       "name": "Luxurious Place",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Newton",
@@ -7219,7 +7219,7 @@
       "createdAt": "2025-11-20T00:21:41.516Z"
     },
     {
-      "id": 361,
+      "id": "361",
       "name": "Luxurious Pavilion",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Somerville",
@@ -7239,7 +7239,7 @@
       "createdAt": "2024-08-18T00:21:41.516Z"
     },
     {
-      "id": 362,
+      "id": "362",
       "name": "Sleek Studio",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Brookline",
@@ -7261,7 +7261,7 @@
       "createdAt": "2025-01-12T00:21:41.516Z"
     },
     {
-      "id": 363,
+      "id": "363",
       "name": "Elegant Pavilion",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Providence",
@@ -7282,7 +7282,7 @@
       "createdAt": "2025-01-11T00:21:41.516Z"
     },
     {
-      "id": 364,
+      "id": "364",
       "name": "Minimalist Terrace",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Quincy",
@@ -7303,7 +7303,7 @@
       "createdAt": "2026-02-13T00:21:41.516Z"
     },
     {
-      "id": 365,
+      "id": "365",
       "name": "Spacious Venue",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Newton",
@@ -7321,7 +7321,7 @@
       "createdAt": "2025-06-13T00:21:41.516Z"
     },
     {
-      "id": 366,
+      "id": "366",
       "name": "Sleek Suite",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Somerville",
@@ -7341,7 +7341,7 @@
       "createdAt": "2024-10-21T00:21:41.516Z"
     },
     {
-      "id": 367,
+      "id": "367",
       "name": "Chic Space",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Salem",
@@ -7361,7 +7361,7 @@
       "createdAt": "2025-05-01T00:21:41.516Z"
     },
     {
-      "id": 368,
+      "id": "368",
       "name": "Modern Hub",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Cambridge",
@@ -7379,7 +7379,7 @@
       "createdAt": "2024-07-26T00:21:41.516Z"
     },
     {
-      "id": 369,
+      "id": "369",
       "name": "Sleek Pavilion",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Quincy",
@@ -7398,7 +7398,7 @@
       "createdAt": "2025-12-06T00:21:41.516Z"
     },
     {
-      "id": 370,
+      "id": "370",
       "name": "Historic Den",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Portland",
@@ -7417,7 +7417,7 @@
       "createdAt": "2025-09-11T00:21:41.516Z"
     },
     {
-      "id": 371,
+      "id": "371",
       "name": "Rustic Hub",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Cambridge",
@@ -7438,7 +7438,7 @@
       "createdAt": "2024-11-16T00:21:41.516Z"
     },
     {
-      "id": 372,
+      "id": "372",
       "name": "Cozy Atrium",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Quincy",
@@ -7460,7 +7460,7 @@
       "createdAt": "2024-07-21T00:21:41.516Z"
     },
     {
-      "id": 373,
+      "id": "373",
       "name": "Luxurious Room",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Cambridge",
@@ -7482,7 +7482,7 @@
       "createdAt": "2024-10-24T00:21:41.516Z"
     },
     {
-      "id": 374,
+      "id": "374",
       "name": "Grand Studio",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Somerville",
@@ -7500,7 +7500,7 @@
       "createdAt": "2024-11-14T00:21:41.516Z"
     },
     {
-      "id": 375,
+      "id": "375",
       "name": "Luxurious Lounge",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Providence",
@@ -7520,7 +7520,7 @@
       "createdAt": "2025-07-11T00:21:41.516Z"
     },
     {
-      "id": 376,
+      "id": "376",
       "name": "Modern Venue",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Cambridge",
@@ -7541,7 +7541,7 @@
       "createdAt": "2024-06-02T00:21:41.516Z"
     },
     {
-      "id": 377,
+      "id": "377",
       "name": "Chic Studio",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Newton",
@@ -7561,7 +7561,7 @@
       "createdAt": "2025-06-13T00:21:41.516Z"
     },
     {
-      "id": 378,
+      "id": "378",
       "name": "Luxurious Atrium",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Boston",
@@ -7583,7 +7583,7 @@
       "createdAt": "2026-04-14T00:21:41.516Z"
     },
     {
-      "id": 379,
+      "id": "379",
       "name": "Luxurious Room",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Cambridge",
@@ -7604,7 +7604,7 @@
       "createdAt": "2024-06-15T00:21:41.516Z"
     },
     {
-      "id": 380,
+      "id": "380",
       "name": "Modern Studio",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Boston",
@@ -7622,7 +7622,7 @@
       "createdAt": "2025-06-02T00:21:41.516Z"
     },
     {
-      "id": 381,
+      "id": "381",
       "name": "Grand Hall",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Cambridge",
@@ -7641,7 +7641,7 @@
       "createdAt": "2025-08-12T00:21:41.516Z"
     },
     {
-      "id": 382,
+      "id": "382",
       "name": "Cozy Terrace",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Quincy",
@@ -7661,7 +7661,7 @@
       "createdAt": "2024-05-10T00:21:41.516Z"
     },
     {
-      "id": 383,
+      "id": "383",
       "name": "Sleek Suite",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Boston",
@@ -7681,7 +7681,7 @@
       "createdAt": "2025-12-16T00:21:41.516Z"
     },
     {
-      "id": 384,
+      "id": "384",
       "name": "Grand Pavilion",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Boston",
@@ -7700,7 +7700,7 @@
       "createdAt": "2025-08-09T00:21:41.516Z"
     },
     {
-      "id": 385,
+      "id": "385",
       "name": "Historic Hall",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Portland",
@@ -7721,7 +7721,7 @@
       "createdAt": "2026-04-07T00:21:41.516Z"
     },
     {
-      "id": 386,
+      "id": "386",
       "name": "Modern Hub",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Cambridge",
@@ -7739,7 +7739,7 @@
       "createdAt": "2024-04-15T00:21:41.516Z"
     },
     {
-      "id": 387,
+      "id": "387",
       "name": "Minimalist Room",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Somerville",
@@ -7757,7 +7757,7 @@
       "createdAt": "2024-06-30T00:21:41.516Z"
     },
     {
-      "id": 388,
+      "id": "388",
       "name": "Contemporary Lounge",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Providence",
@@ -7776,7 +7776,7 @@
       "createdAt": "2025-07-31T00:21:41.516Z"
     },
     {
-      "id": 389,
+      "id": "389",
       "name": "Grand Room",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Cambridge",
@@ -7796,7 +7796,7 @@
       "createdAt": "2025-10-19T00:21:41.516Z"
     },
     {
-      "id": 390,
+      "id": "390",
       "name": "Vibrant Hall",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Salem",
@@ -7816,7 +7816,7 @@
       "createdAt": "2026-01-11T00:21:41.516Z"
     },
     {
-      "id": 391,
+      "id": "391",
       "name": "Vibrant Lounge",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Salem",
@@ -7835,7 +7835,7 @@
       "createdAt": "2024-12-06T00:21:41.516Z"
     },
     {
-      "id": 392,
+      "id": "392",
       "name": "Grand Place",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Somerville",
@@ -7856,7 +7856,7 @@
       "createdAt": "2026-02-21T00:21:41.516Z"
     },
     {
-      "id": 393,
+      "id": "393",
       "name": "Contemporary Suite",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Cambridge",
@@ -7877,7 +7877,7 @@
       "createdAt": "2025-02-02T00:21:41.516Z"
     },
     {
-      "id": 394,
+      "id": "394",
       "name": "Contemporary Hub",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Salem",
@@ -7895,7 +7895,7 @@
       "createdAt": "2024-05-10T00:21:41.516Z"
     },
     {
-      "id": 395,
+      "id": "395",
       "name": "Luxurious Loft",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Somerville",
@@ -7915,7 +7915,7 @@
       "createdAt": "2025-04-26T00:21:41.516Z"
     },
     {
-      "id": 396,
+      "id": "396",
       "name": "Historic Space",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Brookline",
@@ -7936,7 +7936,7 @@
       "createdAt": "2024-09-24T00:21:41.516Z"
     },
     {
-      "id": 397,
+      "id": "397",
       "name": "Intimate Studio",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Providence",
@@ -7958,7 +7958,7 @@
       "createdAt": "2025-10-03T00:21:41.516Z"
     },
     {
-      "id": 398,
+      "id": "398",
       "name": "Modern Studio",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Cambridge",
@@ -7978,7 +7978,7 @@
       "createdAt": "2026-02-08T00:21:41.516Z"
     },
     {
-      "id": 399,
+      "id": "399",
       "name": "Contemporary Terrace",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Providence",
@@ -7999,7 +7999,7 @@
       "createdAt": "2025-10-12T00:21:41.516Z"
     },
     {
-      "id": 400,
+      "id": "400",
       "name": "Sleek Room",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Boston",
@@ -8020,7 +8020,7 @@
       "createdAt": "2024-12-13T00:21:41.516Z"
     },
     {
-      "id": 401,
+      "id": "401",
       "name": "Cozy Venue",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Portland",
@@ -8039,7 +8039,7 @@
       "createdAt": "2025-01-01T00:21:41.516Z"
     },
     {
-      "id": 402,
+      "id": "402",
       "name": "Grand Space",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Boston",
@@ -8057,7 +8057,7 @@
       "createdAt": "2025-03-06T00:21:41.516Z"
     },
     {
-      "id": 403,
+      "id": "403",
       "name": "Cozy Hall",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Somerville",
@@ -8078,7 +8078,7 @@
       "createdAt": "2024-05-05T00:21:41.516Z"
     },
     {
-      "id": 404,
+      "id": "404",
       "name": "Rustic Hall",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Cambridge",
@@ -8096,7 +8096,7 @@
       "createdAt": "2025-05-15T00:21:41.516Z"
     },
     {
-      "id": 405,
+      "id": "405",
       "name": "Vibrant Atrium",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Boston",
@@ -8116,7 +8116,7 @@
       "createdAt": "2024-09-06T00:21:41.516Z"
     },
     {
-      "id": 406,
+      "id": "406",
       "name": "Chic Space",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Portland",
@@ -8135,7 +8135,7 @@
       "createdAt": "2025-11-07T00:21:41.516Z"
     },
     {
-      "id": 407,
+      "id": "407",
       "name": "Spacious Hall",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Somerville",
@@ -8153,7 +8153,7 @@
       "createdAt": "2025-10-05T00:21:41.516Z"
     },
     {
-      "id": 408,
+      "id": "408",
       "name": "Vibrant Gallery",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Providence",
@@ -8175,7 +8175,7 @@
       "createdAt": "2024-11-21T00:21:41.516Z"
     },
     {
-      "id": 409,
+      "id": "409",
       "name": "Grand Lounge",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Salem",
@@ -8193,7 +8193,7 @@
       "createdAt": "2024-07-28T00:21:41.516Z"
     },
     {
-      "id": 410,
+      "id": "410",
       "name": "Modern Studio",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Salem",
@@ -8211,7 +8211,7 @@
       "createdAt": "2024-07-12T00:21:41.516Z"
     },
     {
-      "id": 411,
+      "id": "411",
       "name": "Minimalist Lounge",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Somerville",
@@ -8232,7 +8232,7 @@
       "createdAt": "2024-11-07T00:21:41.516Z"
     },
     {
-      "id": 412,
+      "id": "412",
       "name": "Chic Gallery",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Providence",
@@ -8253,7 +8253,7 @@
       "createdAt": "2024-05-27T00:21:41.516Z"
     },
     {
-      "id": 413,
+      "id": "413",
       "name": "Rustic Suite",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Salem",
@@ -8273,7 +8273,7 @@
       "createdAt": "2024-12-21T00:21:41.516Z"
     },
     {
-      "id": 414,
+      "id": "414",
       "name": "Cozy Venue",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Cambridge",
@@ -8293,7 +8293,7 @@
       "createdAt": "2024-11-17T00:21:41.516Z"
     },
     {
-      "id": 415,
+      "id": "415",
       "name": "Sleek Hub",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Worcester",
@@ -8313,7 +8313,7 @@
       "createdAt": "2026-04-13T00:21:41.516Z"
     },
     {
-      "id": 416,
+      "id": "416",
       "name": "Rustic Suite",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Worcester",
@@ -8335,7 +8335,7 @@
       "createdAt": "2024-05-14T00:21:41.516Z"
     },
     {
-      "id": 417,
+      "id": "417",
       "name": "Intimate Venue",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Quincy",
@@ -8357,7 +8357,7 @@
       "createdAt": "2024-05-08T00:21:41.516Z"
     },
     {
-      "id": 418,
+      "id": "418",
       "name": "Cozy Suite",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Providence",
@@ -8377,7 +8377,7 @@
       "createdAt": "2025-04-22T00:21:41.516Z"
     },
     {
-      "id": 419,
+      "id": "419",
       "name": "Chic Pavilion",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Quincy",
@@ -8397,7 +8397,7 @@
       "createdAt": "2025-11-16T00:21:41.516Z"
     },
     {
-      "id": 420,
+      "id": "420",
       "name": "Sleek Den",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Newton",
@@ -8418,7 +8418,7 @@
       "createdAt": "2026-01-08T00:21:41.516Z"
     },
     {
-      "id": 421,
+      "id": "421",
       "name": "Luxurious Space",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Worcester",
@@ -8439,7 +8439,7 @@
       "createdAt": "2025-04-27T00:21:41.516Z"
     },
     {
-      "id": 422,
+      "id": "422",
       "name": "Sleek Suite",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Providence",
@@ -8458,7 +8458,7 @@
       "createdAt": "2025-11-01T00:21:41.516Z"
     },
     {
-      "id": 423,
+      "id": "423",
       "name": "Spacious Lounge",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Cambridge",
@@ -8478,7 +8478,7 @@
       "createdAt": "2025-03-14T00:21:41.516Z"
     },
     {
-      "id": 424,
+      "id": "424",
       "name": "Vibrant Studio",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Salem",
@@ -8498,7 +8498,7 @@
       "createdAt": "2025-03-06T00:21:41.516Z"
     },
     {
-      "id": 425,
+      "id": "425",
       "name": "Historic Terrace",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Providence",
@@ -8518,7 +8518,7 @@
       "createdAt": "2024-12-08T00:21:41.516Z"
     },
     {
-      "id": 426,
+      "id": "426",
       "name": "Elegant Place",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Somerville",
@@ -8536,7 +8536,7 @@
       "createdAt": "2025-07-11T00:21:41.516Z"
     },
     {
-      "id": 427,
+      "id": "427",
       "name": "Luxurious Pavilion",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Worcester",
@@ -8555,7 +8555,7 @@
       "createdAt": "2024-05-26T00:21:41.516Z"
     },
     {
-      "id": 428,
+      "id": "428",
       "name": "Historic Space",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Salem",
@@ -8575,7 +8575,7 @@
       "createdAt": "2024-07-11T00:21:41.516Z"
     },
     {
-      "id": 429,
+      "id": "429",
       "name": "Vibrant Venue",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Portland",
@@ -8597,7 +8597,7 @@
       "createdAt": "2024-10-18T00:21:41.516Z"
     },
     {
-      "id": 430,
+      "id": "430",
       "name": "Grand Suite",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Portland",
@@ -8619,7 +8619,7 @@
       "createdAt": "2025-03-27T00:21:41.516Z"
     },
     {
-      "id": 431,
+      "id": "431",
       "name": "Rustic Lounge",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Quincy",
@@ -8638,7 +8638,7 @@
       "createdAt": "2025-09-12T00:21:41.516Z"
     },
     {
-      "id": 432,
+      "id": "432",
       "name": "Modern Hall",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Cambridge",
@@ -8657,7 +8657,7 @@
       "createdAt": "2024-10-16T00:21:41.516Z"
     },
     {
-      "id": 433,
+      "id": "433",
       "name": "Contemporary Den",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Boston",
@@ -8675,7 +8675,7 @@
       "createdAt": "2025-06-28T00:21:41.516Z"
     },
     {
-      "id": 434,
+      "id": "434",
       "name": "Chic Space",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Boston",
@@ -8697,7 +8697,7 @@
       "createdAt": "2025-08-13T00:21:41.516Z"
     },
     {
-      "id": 435,
+      "id": "435",
       "name": "Sleek Den",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Newton",
@@ -8718,7 +8718,7 @@
       "createdAt": "2025-08-08T00:21:41.516Z"
     },
     {
-      "id": 436,
+      "id": "436",
       "name": "Cozy Hall",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Portland",
@@ -8737,7 +8737,7 @@
       "createdAt": "2025-07-22T00:21:41.516Z"
     },
     {
-      "id": 437,
+      "id": "437",
       "name": "Luxurious Suite",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Cambridge",
@@ -8758,7 +8758,7 @@
       "createdAt": "2025-08-21T00:21:41.516Z"
     },
     {
-      "id": 438,
+      "id": "438",
       "name": "Industrial Loft",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Boston",
@@ -8776,7 +8776,7 @@
       "createdAt": "2024-09-05T00:21:41.516Z"
     },
     {
-      "id": 439,
+      "id": "439",
       "name": "Spacious Terrace",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Brookline",
@@ -8798,7 +8798,7 @@
       "createdAt": "2025-07-18T00:21:41.516Z"
     },
     {
-      "id": 440,
+      "id": "440",
       "name": "Modern Studio",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Brookline",
@@ -8819,7 +8819,7 @@
       "createdAt": "2025-08-02T00:21:41.516Z"
     },
     {
-      "id": 441,
+      "id": "441",
       "name": "Chic Hall",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Worcester",
@@ -8841,7 +8841,7 @@
       "createdAt": "2025-11-27T00:21:41.516Z"
     },
     {
-      "id": 442,
+      "id": "442",
       "name": "Grand Place",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Brookline",
@@ -8863,7 +8863,7 @@
       "createdAt": "2026-02-23T00:21:41.516Z"
     },
     {
-      "id": 443,
+      "id": "443",
       "name": "Industrial Atrium",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Providence",
@@ -8883,7 +8883,7 @@
       "createdAt": "2025-01-01T00:21:41.516Z"
     },
     {
-      "id": 444,
+      "id": "444",
       "name": "Elegant Lounge",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Salem",
@@ -8903,7 +8903,7 @@
       "createdAt": "2025-05-19T00:21:41.516Z"
     },
     {
-      "id": 445,
+      "id": "445",
       "name": "Spacious Lounge",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Worcester",
@@ -8925,7 +8925,7 @@
       "createdAt": "2026-01-16T00:21:41.516Z"
     },
     {
-      "id": 446,
+      "id": "446",
       "name": "Historic Lounge",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Providence",
@@ -8943,7 +8943,7 @@
       "createdAt": "2024-04-25T00:21:41.516Z"
     },
     {
-      "id": 447,
+      "id": "447",
       "name": "Modern Suite",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Brookline",
@@ -8962,7 +8962,7 @@
       "createdAt": "2024-09-19T00:21:41.516Z"
     },
     {
-      "id": 448,
+      "id": "448",
       "name": "Spacious Hub",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Boston",
@@ -8982,7 +8982,7 @@
       "createdAt": "2025-06-06T00:21:41.516Z"
     },
     {
-      "id": 449,
+      "id": "449",
       "name": "Spacious Gallery",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Quincy",
@@ -9004,7 +9004,7 @@
       "createdAt": "2024-08-21T00:21:41.517Z"
     },
     {
-      "id": 450,
+      "id": "450",
       "name": "Modern Place",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Providence",
@@ -9025,7 +9025,7 @@
       "createdAt": "2024-05-18T00:21:41.517Z"
     },
     {
-      "id": 451,
+      "id": "451",
       "name": "Luxurious Loft",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Brookline",
@@ -9044,7 +9044,7 @@
       "createdAt": "2025-04-13T00:21:41.517Z"
     },
     {
-      "id": 452,
+      "id": "452",
       "name": "Grand Loft",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Worcester",
@@ -9066,7 +9066,7 @@
       "createdAt": "2024-06-08T00:21:41.517Z"
     },
     {
-      "id": 453,
+      "id": "453",
       "name": "Elegant Suite",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Worcester",
@@ -9084,7 +9084,7 @@
       "createdAt": "2026-01-19T00:21:41.517Z"
     },
     {
-      "id": 454,
+      "id": "454",
       "name": "Vibrant Pavilion",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Brookline",
@@ -9104,7 +9104,7 @@
       "createdAt": "2024-09-07T00:21:41.517Z"
     },
     {
-      "id": 455,
+      "id": "455",
       "name": "Luxurious Place",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Somerville",
@@ -9123,7 +9123,7 @@
       "createdAt": "2024-08-12T00:21:41.517Z"
     },
     {
-      "id": 456,
+      "id": "456",
       "name": "Intimate Suite",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Providence",
@@ -9141,7 +9141,7 @@
       "createdAt": "2024-07-20T00:21:41.517Z"
     },
     {
-      "id": 457,
+      "id": "457",
       "name": "Industrial Space",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Somerville",
@@ -9162,7 +9162,7 @@
       "createdAt": "2025-05-12T00:21:41.517Z"
     },
     {
-      "id": 458,
+      "id": "458",
       "name": "Luxurious Space",
       "description": "Industrial-chic design with exposed brick and reclaimed wood.",
       "city": "Providence",
@@ -9183,7 +9183,7 @@
       "createdAt": "2024-06-08T00:21:41.517Z"
     },
     {
-      "id": 459,
+      "id": "459",
       "name": "Vibrant Studio",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Somerville",
@@ -9205,7 +9205,7 @@
       "createdAt": "2025-05-14T00:21:41.517Z"
     },
     {
-      "id": 460,
+      "id": "460",
       "name": "Chic Pavilion",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Boston",
@@ -9224,7 +9224,7 @@
       "createdAt": "2024-11-03T00:21:41.517Z"
     },
     {
-      "id": 461,
+      "id": "461",
       "name": "Sleek Suite",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Boston",
@@ -9242,7 +9242,7 @@
       "createdAt": "2024-08-02T00:21:41.517Z"
     },
     {
-      "id": 462,
+      "id": "462",
       "name": "Spacious Atrium",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Providence",
@@ -9263,7 +9263,7 @@
       "createdAt": "2025-06-18T00:21:41.517Z"
     },
     {
-      "id": 463,
+      "id": "463",
       "name": "Modern Lounge",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Brookline",
@@ -9284,7 +9284,7 @@
       "createdAt": "2025-02-12T00:21:41.517Z"
     },
     {
-      "id": 464,
+      "id": "464",
       "name": "Industrial Hall",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Providence",
@@ -9305,7 +9305,7 @@
       "createdAt": "2025-07-01T00:21:41.517Z"
     },
     {
-      "id": 465,
+      "id": "465",
       "name": "Modern Space",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Quincy",
@@ -9327,7 +9327,7 @@
       "createdAt": "2025-12-27T00:21:41.517Z"
     },
     {
-      "id": 466,
+      "id": "466",
       "name": "Spacious Suite",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Portland",
@@ -9346,7 +9346,7 @@
       "createdAt": "2025-06-27T00:21:41.517Z"
     },
     {
-      "id": 467,
+      "id": "467",
       "name": "Historic Venue",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Cambridge",
@@ -9368,7 +9368,7 @@
       "createdAt": "2026-03-26T00:21:41.517Z"
     },
     {
-      "id": 468,
+      "id": "468",
       "name": "Industrial Pavilion",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Worcester",
@@ -9386,7 +9386,7 @@
       "createdAt": "2024-11-03T00:21:41.517Z"
     },
     {
-      "id": 469,
+      "id": "469",
       "name": "Minimalist Place",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Quincy",
@@ -9408,7 +9408,7 @@
       "createdAt": "2024-05-08T00:21:41.517Z"
     },
     {
-      "id": 470,
+      "id": "470",
       "name": "Historic Hub",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Somerville",
@@ -9430,7 +9430,7 @@
       "createdAt": "2024-08-03T00:21:41.517Z"
     },
     {
-      "id": 471,
+      "id": "471",
       "name": "Cozy Hub",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Quincy",
@@ -9449,7 +9449,7 @@
       "createdAt": "2025-05-12T00:21:41.517Z"
     },
     {
-      "id": 472,
+      "id": "472",
       "name": "Sleek Venue",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Providence",
@@ -9467,7 +9467,7 @@
       "createdAt": "2026-03-03T00:21:41.517Z"
     },
     {
-      "id": 473,
+      "id": "473",
       "name": "Vibrant Den",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Worcester",
@@ -9487,7 +9487,7 @@
       "createdAt": "2024-12-05T00:21:41.517Z"
     },
     {
-      "id": 474,
+      "id": "474",
       "name": "Sleek Venue",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Quincy",
@@ -9505,7 +9505,7 @@
       "createdAt": "2024-05-12T00:21:41.517Z"
     },
     {
-      "id": 475,
+      "id": "475",
       "name": "Rustic Pavilion",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Brookline",
@@ -9525,7 +9525,7 @@
       "createdAt": "2026-02-03T00:21:41.517Z"
     },
     {
-      "id": 476,
+      "id": "476",
       "name": "Intimate Gallery",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Brookline",
@@ -9546,7 +9546,7 @@
       "createdAt": "2025-02-15T00:21:41.517Z"
     },
     {
-      "id": 477,
+      "id": "477",
       "name": "Cozy Den",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Cambridge",
@@ -9564,7 +9564,7 @@
       "createdAt": "2025-06-11T00:21:41.517Z"
     },
     {
-      "id": 478,
+      "id": "478",
       "name": "Contemporary Studio",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Brookline",
@@ -9582,7 +9582,7 @@
       "createdAt": "2025-09-21T00:21:41.517Z"
     },
     {
-      "id": 479,
+      "id": "479",
       "name": "Spacious Gallery",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Portland",
@@ -9603,7 +9603,7 @@
       "createdAt": "2024-04-30T00:21:41.517Z"
     },
     {
-      "id": 480,
+      "id": "480",
       "name": "Sleek Suite",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Brookline",
@@ -9624,7 +9624,7 @@
       "createdAt": "2025-06-19T00:21:41.517Z"
     },
     {
-      "id": 481,
+      "id": "481",
       "name": "Elegant Terrace",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Newton",
@@ -9645,7 +9645,7 @@
       "createdAt": "2024-07-29T00:21:41.517Z"
     },
     {
-      "id": 482,
+      "id": "482",
       "name": "Vibrant Gallery",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Brookline",
@@ -9665,7 +9665,7 @@
       "createdAt": "2024-04-19T00:21:41.517Z"
     },
     {
-      "id": 483,
+      "id": "483",
       "name": "Modern Lounge",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Boston",
@@ -9683,7 +9683,7 @@
       "createdAt": "2024-08-04T00:21:41.517Z"
     },
     {
-      "id": 484,
+      "id": "484",
       "name": "Intimate Place",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Salem",
@@ -9701,7 +9701,7 @@
       "createdAt": "2024-09-15T00:21:41.517Z"
     },
     {
-      "id": 485,
+      "id": "485",
       "name": "Contemporary Den",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Salem",
@@ -9720,7 +9720,7 @@
       "createdAt": "2024-09-09T00:21:41.517Z"
     },
     {
-      "id": 486,
+      "id": "486",
       "name": "Grand Suite",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Newton",
@@ -9739,7 +9739,7 @@
       "createdAt": "2026-03-26T00:21:41.517Z"
     },
     {
-      "id": 487,
+      "id": "487",
       "name": "Grand Gallery",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Worcester",
@@ -9761,7 +9761,7 @@
       "createdAt": "2024-08-20T00:21:41.517Z"
     },
     {
-      "id": 488,
+      "id": "488",
       "name": "Rustic Gallery",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Portland",
@@ -9780,7 +9780,7 @@
       "createdAt": "2025-09-07T00:21:41.517Z"
     },
     {
-      "id": 489,
+      "id": "489",
       "name": "Intimate Loft",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Worcester",
@@ -9799,7 +9799,7 @@
       "createdAt": "2025-01-03T00:21:41.517Z"
     },
     {
-      "id": 490,
+      "id": "490",
       "name": "Industrial Suite",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Cambridge",
@@ -9819,7 +9819,7 @@
       "createdAt": "2024-05-18T00:21:41.517Z"
     },
     {
-      "id": 491,
+      "id": "491",
       "name": "Historic Atrium",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Salem",
@@ -9839,7 +9839,7 @@
       "createdAt": "2024-12-23T00:21:41.517Z"
     },
     {
-      "id": 492,
+      "id": "492",
       "name": "Modern Pavilion",
       "description": "Conveniently located near public transit with ample parking.",
       "city": "Somerville",
@@ -9857,7 +9857,7 @@
       "createdAt": "2025-06-05T00:21:41.517Z"
     },
     {
-      "id": 493,
+      "id": "493",
       "name": "Chic Pavilion",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Brookline",
@@ -9876,7 +9876,7 @@
       "createdAt": "2026-03-16T00:21:41.517Z"
     },
     {
-      "id": 494,
+      "id": "494",
       "name": "Sleek Place",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Cambridge",
@@ -9894,7 +9894,7 @@
       "createdAt": "2024-12-21T00:21:41.517Z"
     },
     {
-      "id": 495,
+      "id": "495",
       "name": "Elegant Hub",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Quincy",
@@ -9916,7 +9916,7 @@
       "createdAt": "2024-09-04T00:21:41.517Z"
     },
     {
-      "id": 496,
+      "id": "496",
       "name": "Minimalist Lounge",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Providence",
@@ -9934,7 +9934,7 @@
       "createdAt": "2024-08-03T00:21:41.517Z"
     },
     {
-      "id": 497,
+      "id": "497",
       "name": "Sleek Suite",
       "description": "Premium catering kitchen on-site for full-service events.",
       "city": "Quincy",
@@ -9952,7 +9952,7 @@
       "createdAt": "2024-12-12T00:21:41.517Z"
     },
     {
-      "id": 498,
+      "id": "498",
       "name": "Historic Studio",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Cambridge",
@@ -9974,7 +9974,7 @@
       "createdAt": "2025-02-08T00:21:41.517Z"
     },
     {
-      "id": 499,
+      "id": "499",
       "name": "Luxurious Hub",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Portland",
@@ -9996,7 +9996,7 @@
       "createdAt": "2025-02-21T00:21:41.517Z"
     },
     {
-      "id": 500,
+      "id": "500",
       "name": "Sleek Den",
       "description": "Historic building with modern upgrades and timeless character.",
       "city": "Providence",
@@ -10014,7 +10014,7 @@
       "createdAt": "2024-08-30T00:21:41.517Z"
     },
     {
-      "id": 501,
+      "id": "501",
       "name": "Industrial Suite",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Somerville",
@@ -10034,7 +10034,7 @@
       "createdAt": "2024-12-27T00:21:41.517Z"
     },
     {
-      "id": 502,
+      "id": "502",
       "name": "Cozy Atrium",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Worcester",
@@ -10052,7 +10052,7 @@
       "createdAt": "2024-07-12T00:21:41.517Z"
     },
     {
-      "id": 503,
+      "id": "503",
       "name": "Minimalist Loft",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Providence",
@@ -10074,7 +10074,7 @@
       "createdAt": "2026-01-28T00:21:41.517Z"
     },
     {
-      "id": 504,
+      "id": "504",
       "name": "Contemporary Studio",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Cambridge",
@@ -10093,7 +10093,7 @@
       "createdAt": "2024-05-21T00:21:41.517Z"
     },
     {
-      "id": 505,
+      "id": "505",
       "name": "Elegant Atrium",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Cambridge",
@@ -10111,7 +10111,7 @@
       "createdAt": "2025-09-02T00:21:41.517Z"
     },
     {
-      "id": 506,
+      "id": "506",
       "name": "Elegant Lounge",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Somerville",
@@ -10129,7 +10129,7 @@
       "createdAt": "2025-03-27T00:21:41.517Z"
     },
     {
-      "id": 507,
+      "id": "507",
       "name": "Luxurious Room",
       "description": "Boutique venue with curated decor and personalized service.",
       "city": "Providence",
@@ -10151,7 +10151,7 @@
       "createdAt": "2025-08-27T00:21:41.517Z"
     },
     {
-      "id": 508,
+      "id": "508",
       "name": "Chic Hub",
       "description": "Nestled in the heart of the city, this venue offers unmatched accessibility.",
       "city": "Quincy",
@@ -10170,7 +10170,7 @@
       "createdAt": "2025-12-01T00:21:41.517Z"
     },
     {
-      "id": 509,
+      "id": "509",
       "name": "Industrial Hall",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Salem",
@@ -10189,7 +10189,7 @@
       "createdAt": "2025-07-14T00:21:41.517Z"
     },
     {
-      "id": 510,
+      "id": "510",
       "name": "Luxurious Hub",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Newton",
@@ -10209,7 +10209,7 @@
       "createdAt": "2025-03-30T00:21:41.517Z"
     },
     {
-      "id": 511,
+      "id": "511",
       "name": "Modern Atrium",
       "description": "Rooftop access with panoramic views of the Boston skyline.",
       "city": "Boston",
@@ -10230,7 +10230,7 @@
       "createdAt": "2024-12-09T00:21:41.517Z"
     },
     {
-      "id": 512,
+      "id": "512",
       "name": "Cozy Space",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Brookline",
@@ -10252,7 +10252,7 @@
       "createdAt": "2025-08-06T00:21:41.517Z"
     },
     {
-      "id": 513,
+      "id": "513",
       "name": "Vibrant Gallery",
       "description": "Open-plan layout with customizable configurations for any event.",
       "city": "Quincy",
@@ -10274,7 +10274,7 @@
       "createdAt": "2026-03-24T00:21:41.517Z"
     },
     {
-      "id": 514,
+      "id": "514",
       "name": "Elegant Venue",
       "description": "A stunning space perfect for corporate events and private gatherings.",
       "city": "Brookline",
@@ -10292,7 +10292,7 @@
       "createdAt": "2026-03-24T00:21:41.517Z"
     },
     {
-      "id": 515,
+      "id": "515",
       "name": "Spacious Space",
       "description": "Floor-to-ceiling windows offer breathtaking city views.",
       "city": "Worcester",
@@ -10310,7 +10310,7 @@
       "createdAt": "2024-12-10T00:21:41.517Z"
     },
     {
-      "id": 516,
+      "id": "516",
       "name": "Historic Place",
       "description": "A flexible space that transforms to meet your event needs.",
       "city": "Portland",
@@ -10332,7 +10332,7 @@
       "createdAt": "2025-06-06T00:21:41.517Z"
     },
     {
-      "id": 517,
+      "id": "517",
       "name": "Modern Hub",
       "description": "High ceilings and natural light create an inspiring atmosphere.",
       "city": "Providence",
@@ -10352,7 +10352,7 @@
       "createdAt": "2025-01-03T00:21:41.517Z"
     },
     {
-      "id": 518,
+      "id": "518",
       "name": "Vibrant Loft",
       "description": "A serene environment ideal for focused work and creative thinking.",
       "city": "Brookline",
@@ -10370,7 +10370,7 @@
       "createdAt": "2025-09-28T00:21:41.517Z"
     },
     {
-      "id": 519,
+      "id": "519",
       "name": "Luxurious Atrium",
       "description": "Modern amenities meet classic charm in this versatile venue.",
       "city": "Worcester",
@@ -10391,7 +10391,7 @@
       "createdAt": "2025-04-05T00:21:41.517Z"
     },
     {
-      "id": 520,
+      "id": "520",
       "name": "Modern Space",
       "description": "State-of-the-art AV equipment and professional lighting included.",
       "city": "Brookline",
@@ -10414,7 +10414,7 @@
   ],
   "bookings": [
     {
-      "id": 1,
+      "id": "1",
       "spaceId": 12,
       "spaceName": "Chic Room",
       "city": "Worcester",
@@ -10425,7 +10425,7 @@
       "createdAt": "2026-04-09T00:21:41.517Z"
     },
     {
-      "id": 2,
+      "id": "2",
       "spaceId": 21,
       "spaceName": "Rustic Studio",
       "city": "Providence",
@@ -10436,7 +10436,7 @@
       "createdAt": "2026-03-23T00:21:41.517Z"
     },
     {
-      "id": 3,
+      "id": "3",
       "spaceId": 12,
       "spaceName": "Chic Room",
       "city": "Worcester",
@@ -10447,7 +10447,7 @@
       "createdAt": "2026-04-04T00:21:41.517Z"
     },
     {
-      "id": 4,
+      "id": "4",
       "spaceId": 44,
       "spaceName": "Sleek Room",
       "city": "Cambridge",
@@ -10458,7 +10458,7 @@
       "createdAt": "2026-03-24T00:21:41.517Z"
     },
     {
-      "id": 5,
+      "id": "5",
       "spaceId": 9,
       "spaceName": "Intimate Atrium",
       "city": "Cambridge",
@@ -10469,7 +10469,7 @@
       "createdAt": "2026-03-15T00:21:41.517Z"
     },
     {
-      "id": 6,
+      "id": "6",
       "spaceId": 46,
       "spaceName": "Chic Hall",
       "city": "Providence",
@@ -10480,7 +10480,7 @@
       "createdAt": "2026-03-17T00:21:41.517Z"
     },
     {
-      "id": 7,
+      "id": "7",
       "spaceId": 40,
       "spaceName": "Rustic Room",
       "city": "Worcester",
@@ -10491,7 +10491,7 @@
       "createdAt": "2026-04-01T00:21:41.517Z"
     },
     {
-      "id": 8,
+      "id": "8",
       "spaceId": 27,
       "spaceName": "Modern Venue",
       "city": "Quincy",
@@ -10502,7 +10502,7 @@
       "createdAt": "2026-03-16T00:21:41.517Z"
     },
     {
-      "id": 9,
+      "id": "9",
       "spaceId": 25,
       "spaceName": "Elegant Den",
       "city": "Cambridge",
@@ -10513,7 +10513,7 @@
       "createdAt": "2026-04-07T00:21:41.517Z"
     },
     {
-      "id": 10,
+      "id": "10",
       "spaceId": 48,
       "spaceName": "Industrial Atrium",
       "city": "Portland",
@@ -10524,7 +10524,7 @@
       "createdAt": "2026-03-15T00:21:41.517Z"
     },
     {
-      "id": 11,
+      "id": "11",
       "spaceId": 29,
       "spaceName": "Contemporary Hall",
       "city": "Somerville",
@@ -10535,7 +10535,7 @@
       "createdAt": "2026-04-01T00:21:41.517Z"
     },
     {
-      "id": 12,
+      "id": "12",
       "spaceId": 4,
       "spaceName": "Industrial Pavilion",
       "city": "Portland",
@@ -10546,7 +10546,7 @@
       "createdAt": "2026-03-22T00:21:41.517Z"
     },
     {
-      "id": 13,
+      "id": "13",
       "spaceId": 32,
       "spaceName": "Intimate Pavilion",
       "city": "Worcester",
@@ -10557,7 +10557,7 @@
       "createdAt": "2026-03-15T00:21:41.517Z"
     },
     {
-      "id": 14,
+      "id": "14",
       "spaceId": 8,
       "spaceName": "Spacious Hub",
       "city": "Portland",
@@ -10568,7 +10568,7 @@
       "createdAt": "2026-04-05T00:21:41.517Z"
     },
     {
-      "id": 15,
+      "id": "15",
       "spaceId": 17,
       "spaceName": "Luxurious Place",
       "city": "Brookline",
@@ -10579,7 +10579,7 @@
       "createdAt": "2026-03-28T00:21:41.517Z"
     },
     {
-      "id": 16,
+      "id": "16",
       "spaceId": 48,
       "spaceName": "Industrial Atrium",
       "city": "Portland",
@@ -10590,7 +10590,7 @@
       "createdAt": "2026-04-11T00:21:41.517Z"
     },
     {
-      "id": 17,
+      "id": "17",
       "spaceId": 25,
       "spaceName": "Elegant Den",
       "city": "Cambridge",
@@ -10601,7 +10601,7 @@
       "createdAt": "2026-04-03T00:21:41.517Z"
     },
     {
-      "id": 18,
+      "id": "18",
       "spaceId": 26,
       "spaceName": "Modern Loft",
       "city": "Boston",
@@ -10612,7 +10612,7 @@
       "createdAt": "2026-03-21T00:21:41.517Z"
     },
     {
-      "id": 19,
+      "id": "19",
       "spaceId": 14,
       "spaceName": "Minimalist Venue",
       "city": "Cambridge",
@@ -10623,7 +10623,7 @@
       "createdAt": "2026-03-22T00:21:41.517Z"
     },
     {
-      "id": 20,
+      "id": "20",
       "spaceId": 15,
       "spaceName": "Chic Loft",
       "city": "Portland",
@@ -10634,7 +10634,7 @@
       "createdAt": "2026-03-25T00:21:41.517Z"
     },
     {
-      "id": 21,
+      "id": "21",
       "spaceId": 45,
       "spaceName": "Historic Lounge",
       "city": "Worcester",
@@ -10645,7 +10645,7 @@
       "createdAt": "2026-03-16T00:21:41.517Z"
     },
     {
-      "id": 22,
+      "id": "22",
       "spaceId": 45,
       "spaceName": "Historic Lounge",
       "city": "Worcester",
@@ -10656,7 +10656,7 @@
       "createdAt": "2026-04-01T00:21:41.517Z"
     },
     {
-      "id": 23,
+      "id": "23",
       "spaceId": 39,
       "spaceName": "Spacious Atrium",
       "city": "Portland",
@@ -10667,7 +10667,7 @@
       "createdAt": "2026-03-18T00:21:41.517Z"
     },
     {
-      "id": 24,
+      "id": "24",
       "spaceId": 24,
       "spaceName": "Luxurious Gallery",
       "city": "Salem",
@@ -10678,7 +10678,7 @@
       "createdAt": "2026-03-27T00:21:41.517Z"
     },
     {
-      "id": 25,
+      "id": "25",
       "spaceId": 46,
       "spaceName": "Chic Hall",
       "city": "Providence",
@@ -10691,52 +10691,53 @@
   ],
   "saved": [
     {
-      "id": 1,
+      "id": "1",
       "spaceId": 93
     },
     {
-      "id": 2,
+      "id": "2",
       "spaceId": 24
     },
     {
-      "id": 3,
+      "id": "3",
       "spaceId": 8
     },
     {
-      "id": 4,
+      "id": "4",
       "spaceId": 68
     },
     {
-      "id": 5,
+      "id": "5",
       "spaceId": 57
     },
     {
-      "id": 6,
+      "id": "6",
       "spaceId": 44
     },
     {
-      "id": 7,
+      "id": "7",
       "spaceId": 98
     },
     {
-      "id": 8,
+      "id": "8",
       "spaceId": 85
     },
     {
-      "id": 9,
+      "id": "9",
       "spaceId": 40
     },
     {
-      "id": 10,
+      "id": "10",
       "spaceId": 6
     },
     {
-      "id": 11,
+      "id": "11",
       "spaceId": 19
     },
     {
-      "id": 12,
+      "id": "12",
       "spaceId": 5
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
