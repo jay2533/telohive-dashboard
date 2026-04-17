@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { BookingsClient } from './BookingsClient';
 
 export const metadata: Metadata = {
-  title: 'Bookings — Telohive',
+  title: 'Bookings — TeloHive',
   description: 'Manage your workspace bookings.',
 };
 

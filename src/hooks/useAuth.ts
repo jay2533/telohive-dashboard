@@ -9,6 +9,7 @@ import type { User } from '@/types';
 
 export interface RegisterFields {
   name: string;
+  phone: string;
   email: string;
   password: string;
 }

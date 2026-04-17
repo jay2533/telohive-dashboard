@@ -56,17 +56,17 @@ export function SavedClient() {
   // ── Loading ───────────────────────────────────────────────────────────────
   if (isLoading) {
     return (
-      <div className="px-4 sm:px-8 py-8">
+      <div className="px-6 py-8 max-w-7xl mx-auto">
         <div className="mb-6">
-          <div className="h-8 w-40 rounded-lg bg-gray-200 animate-pulse mb-2" />
-          <div className="h-4 w-24 rounded bg-gray-200 animate-pulse" />
+          <div className="h-7 w-44 rounded-lg bg-gray-200 animate-pulse mb-2" />
+          <div className="h-4 w-24 rounded-md bg-gray-200 animate-pulse" />
         </div>
-        <div className="flex gap-3 mb-6">
-          <div className="h-9 flex-1 rounded-lg bg-gray-200 animate-pulse" />
-          <div className="h-9 w-36 rounded-lg bg-gray-200 animate-pulse" />
-          <div className="h-9 w-36 rounded-lg bg-gray-200 animate-pulse" />
+        <div className="flex flex-wrap gap-3 mb-6">
+          <div className="h-10 flex-1 min-w-[200px] rounded-full bg-gray-200 animate-pulse" />
+          <div className="h-10 w-36 rounded-lg bg-gray-200 animate-pulse" />
+          <div className="h-10 w-36 rounded-lg bg-gray-200 animate-pulse" />
         </div>
-        <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {Array.from({ length: 6 }).map((_, i) => (
             <SpaceCard key={i} isLoading />
           ))}
@@ -78,15 +78,15 @@ export function SavedClient() {
   // ── No saved spaces at all ────────────────────────────────────────────────
   if (savedSpaces.length === 0) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-[70vh] gap-5 text-center px-4">
-        <div className="w-20 h-20 rounded-full bg-violet-50 flex items-center justify-center">
+      <div className="flex flex-col items-center justify-center min-h-[70vh] gap-6 text-center px-4">
+        <div className="w-24 h-24 rounded-full bg-rose-50 flex items-center justify-center">
           <svg
-            width="36"
-            height="36"
+            width="44"
+            height="44"
             viewBox="0 0 24 24"
             fill="none"
-            stroke="#7c3aed"
-            strokeWidth="1.5"
+            stroke="#f43f5e"
+            strokeWidth="1.25"
             strokeLinecap="round"
             strokeLinejoin="round"
             aria-hidden="true"
@@ -95,17 +95,16 @@ export function SavedClient() {
           </svg>
         </div>
         <div>
-          <h2 className="text-lg font-semibold text-gray-900 mb-1">
+          <h2 className="text-2xl font-semibold text-gray-900 mb-2">
             No saved spaces yet
           </h2>
-          <p className="text-sm text-gray-500 max-w-xs">
-            Browse the discovery page and heart any space to save it here for
-            later.
+          <p className="text-sm text-gray-500 max-w-xs leading-relaxed">
+            Browse spaces and save the ones you like. They'll appear here.
           </p>
         </div>
         <Link
           href="/discovery"
-          className="rounded-lg bg-violet-600 px-5 py-2.5 text-sm font-semibold text-white hover:bg-violet-700 transition-colors focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-2"
+          className="rounded-xl bg-gray-900 px-6 py-3 text-sm font-semibold text-white hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2 shadow-sm"
         >
           Browse spaces
         </Link>
@@ -114,27 +113,27 @@ export function SavedClient() {
   }
 
   return (
-    <div className="px-4 sm:px-8 py-8">
+    <div className="px-6 py-8 max-w-7xl mx-auto">
       {/* ── Page heading ─────────────────────────────────────────────────── */}
       <div className="mb-6">
-        <h1 className="text-2xl font-bold text-gray-900">Saved Spaces</h1>
-        <p className="text-sm text-gray-500 mt-0.5">
+        <h1 className="text-2xl font-semibold text-gray-900">Saved Spaces</h1>
+        <p className="text-sm text-gray-500 mt-1">
           {savedSpaces.length} saved space{savedSpaces.length !== 1 ? 's' : ''}
         </p>
       </div>
 
       {/* ── Search + filters ─────────────────────────────────────────────── */}
       <div className="flex flex-wrap gap-3 mb-6">
-        {/* Search */}
+        {/* Search — rounded-full */}
         <div className="relative flex-1 min-w-[200px]">
           <svg
-            className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
+            className="pointer-events-none absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"
             width="15"
             height="15"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
-            strokeWidth="2.5"
+            strokeWidth="2"
             strokeLinecap="round"
             strokeLinejoin="round"
             aria-hidden="true"
@@ -147,7 +146,7 @@ export function SavedClient() {
             placeholder="Search by name or city…"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            className="w-full rounded-lg border border-gray-300 bg-white py-2 pl-9 pr-4 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent"
+            className="w-full rounded-full border border-gray-200 bg-white py-2.5 pl-11 pr-4 text-sm shadow-sm placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-shadow"
           />
         </div>
 
@@ -156,7 +155,7 @@ export function SavedClient() {
           <select
             value={categoryFilter}
             onChange={(e) => setCategoryFilter(e.target.value)}
-            className="appearance-none rounded-lg border border-gray-300 bg-white py-2 pl-3 pr-8 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent cursor-pointer"
+            className="appearance-none rounded-lg border border-gray-200 bg-white py-2.5 pl-3.5 pr-8 text-sm text-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent cursor-pointer"
           >
             <option value="">All categories</option>
             {categories.map((cat) => (
@@ -166,7 +165,7 @@ export function SavedClient() {
             ))}
           </select>
           <div className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-gray-400">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <polyline points="6 9 12 15 18 9" />
             </svg>
           </div>
@@ -177,7 +176,7 @@ export function SavedClient() {
           <select
             value={cityFilter}
             onChange={(e) => setCityFilter(e.target.value)}
-            className="appearance-none rounded-lg border border-gray-300 bg-white py-2 pl-3 pr-8 text-sm text-gray-700 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent cursor-pointer"
+            className="appearance-none rounded-lg border border-gray-200 bg-white py-2.5 pl-3.5 pr-8 text-sm text-gray-700 shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent cursor-pointer"
           >
             <option value="">All cities</option>
             {cities.map((city) => (
@@ -187,7 +186,7 @@ export function SavedClient() {
             ))}
           </select>
           <div className="pointer-events-none absolute right-2.5 top-1/2 -translate-y-1/2 text-gray-400">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <polyline points="6 9 12 15 18 9" />
             </svg>
           </div>
@@ -195,20 +194,27 @@ export function SavedClient() {
       </div>
 
       {/* ── Result count ─────────────────────────────────────────────────── */}
-      <p className="text-sm text-gray-500 mb-4">
+      <p className="text-sm text-gray-500 mb-5">
         Showing{' '}
-        <span className="font-semibold text-gray-800">{filteredSpaces.length}</span>
+        <span className="text-gray-700">{filteredSpaces.length}</span>
         {' '}of{' '}
-        <span className="font-semibold text-gray-800">{savedSpaces.length}</span>
-        {' '}saved spaces
+        <span className="text-gray-700">{savedSpaces.length}</span>
+        {' '}saved
       </p>
 
       {/* ── Grid or no-results ────────────────────────────────────────────── */}
       {filteredSpaces.length === 0 ? (
         <div className="flex flex-col items-center justify-center min-h-[40vh] gap-4 text-center">
-          <p className="text-sm text-gray-500">
-            No saved spaces match your current filters.
-          </p>
+          <div className="w-14 h-14 rounded-2xl bg-gray-100 flex items-center justify-center">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <circle cx="11" cy="11" r="8" />
+              <line x1="21" y1="21" x2="16.65" y2="16.65" />
+            </svg>
+          </div>
+          <div>
+            <p className="text-sm font-semibold text-gray-700 mb-1">No spaces found</p>
+            <p className="text-xs text-gray-400">Try adjusting your search or filters.</p>
+          </div>
           {hasActiveFilters && (
             <button
               type="button"
@@ -217,14 +223,14 @@ export function SavedClient() {
                 setCategoryFilter('');
                 setCityFilter('');
               }}
-              className="rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium text-gray-600 hover:bg-gray-50 transition-colors"
+              className="rounded-lg border border-gray-200 bg-white px-5 py-2 text-sm font-medium text-gray-600 shadow-sm hover:bg-gray-50 transition-colors"
             >
               Clear filters
             </button>
           )}
         </div>
       ) : (
-        <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+        <div className="grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {filteredSpaces.map((space) => (
             <SpaceCard
               key={space.id}

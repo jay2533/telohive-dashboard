@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 import { DashboardClient } from './DashboardClient';
 
 export const metadata: Metadata = {
-  title: 'Dashboard — Telohive',
+  title: 'Dashboard — TeloHive',
   description: 'Your workspace activity overview.',
 };
 

@@ -14,10 +14,10 @@ const GAP = 24; // gap-6
 // ── Helpers ───────────────────────────────────────────────────────────────────
 
 function getColumnCount(width: number): number {
-  if (width < 640) return 1;
-  if (width < 1024) return 2;
-  if (width < 1280) return 3;
-  return 4;
+  if (width < 500) return 1;   // ~viewport < 640 (no sidebar)
+  if (width < 720) return 2;   // ~viewport 640–1024 (no sidebar)
+  if (width < 960) return 3;   // ~viewport 1024–1280 (sidebar subtracts ~304px)
+  return 4;                    // ~viewport > 1280
 }
 
 function chunk<T>(arr: T[], size: number): T[][] {

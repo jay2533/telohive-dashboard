@@ -8,7 +8,6 @@ import {
   YAxis,
   Tooltip,
   ResponsiveContainer,
-  CartesianGrid,
 } from 'recharts';
 import { useSpaces } from '@/hooks/useSpaces';
 import { useSaved } from '@/hooks/useSaved';
@@ -20,7 +19,7 @@ interface RawBooking {
   spaceId: number;
   spaceName: string;
   city: string;
-  date: string;       // YYYY-MM-DD
+  date: string;
   type: string;
   status: 'Pending' | 'Confirmed' | 'Cancelled';
   amount: number;
@@ -54,12 +53,10 @@ function StatusBadge({ status }: { status: string }) {
   const styles: Record<string, string> = {
     Confirmed: 'bg-emerald-50 text-emerald-700 border-emerald-200',
     Pending:   'bg-amber-50  text-amber-700  border-amber-200',
-    Cancelled: 'bg-red-50    text-red-600    border-red-200',
+    Cancelled: 'bg-red-50    text-red-500    border-red-200',
   };
   return (
-    <span
-      className={`inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium ${styles[status] ?? 'bg-gray-50 text-gray-600 border-gray-200'}`}
-    >
+    <span className={`inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-medium whitespace-nowrap ${styles[status] ?? 'bg-gray-50 text-gray-600 border-gray-200'}`}>
       {status}
     </span>
   );
@@ -73,54 +70,39 @@ interface StatCardProps {
   icon: React.ReactNode;
   trend: string;
   trendUp: boolean;
+  cardClassName: string;
+  iconBg: string;
+  iconText: string;
   loading?: boolean;
 }
 
-function StatCard({ label, value, icon, trend, trendUp, loading }: StatCardProps) {
+function StatCard({ label, value, icon, trend, trendUp, cardClassName, iconBg, iconText, loading }: StatCardProps) {
   return (
-    <div className="rounded-2xl border border-gray-200 bg-white p-5 flex flex-col gap-3">
-      <div className="flex items-center justify-between">
-        <span className="text-xs font-medium text-gray-500 uppercase tracking-wide">
+    <div className={`${cardClassName} shadow-sm`}>
+      <div className="flex flex-col">
+        <span className="text-xs font-medium tracking-wide text-gray-400 uppercase">
           {label}
         </span>
-        <div className="h-9 w-9 rounded-xl bg-violet-50 flex items-center justify-center text-violet-600">
-          {icon}
-        </div>
+        {loading ? (
+          <>
+            <div className="h-10 w-28 rounded-lg bg-gray-200 animate-pulse my-2" />
+            <div className="h-4 w-36 rounded bg-gray-200 animate-pulse" />
+          </>
+        ) : (
+          <>
+            <p className="text-3xl font-bold text-gray-900 my-2">{value}</p>
+            <p className={`text-sm flex items-center gap-1 ${trendUp ? 'text-emerald-600' : 'text-red-500'}`}>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                {trendUp ? <polyline points="18 15 12 9 6 15" /> : <polyline points="6 9 12 15 18 9" />}
+              </svg>
+              {trend}
+            </p>
+          </>
+        )}
       </div>
-      {loading ? (
-        <>
-          <div className="h-8 w-24 rounded bg-gray-200 animate-pulse" />
-          <div className="h-4 w-32 rounded bg-gray-200 animate-pulse" />
-        </>
-      ) : (
-        <>
-          <p className="text-3xl font-bold text-gray-900">{value}</p>
-          <p
-            className={`text-xs font-medium flex items-center gap-1 ${
-              trendUp ? 'text-emerald-600' : 'text-red-500'
-            }`}
-          >
-            <svg
-              width="12"
-              height="12"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              aria-hidden="true"
-            >
-              {trendUp ? (
-                <polyline points="18 15 12 9 6 15" />
-              ) : (
-                <polyline points="6 9 12 15 18 9" />
-              )}
-            </svg>
-            {trend}
-          </p>
-        </>
-      )}
+      <div className={`h-10 w-10 rounded-full flex items-center justify-center shrink-0 ${iconBg} ${iconText}`}>
+        {icon}
+      </div>
     </div>
   );
 }
@@ -138,12 +120,20 @@ function ChartTooltip({
 }) {
   if (!active || !payload?.length) return null;
   return (
-    <div className="rounded-xl border border-gray-200 bg-white px-3 py-2 shadow-lg text-sm">
-      <p className="font-medium text-gray-700 mb-1">{label}</p>
-      <p className="text-violet-700 font-semibold">{payload[0].value} bookings</p>
+    <div className="rounded-xl border border-gray-100 bg-white px-3.5 py-2.5 shadow-lg text-sm">
+      <p className="font-medium text-gray-600 mb-0.5">{label}</p>
+      <p className="text-indigo-600 font-bold">{payload[0].value} bookings</p>
     </div>
   );
 }
+
+// ── Upcoming booking row ──────────────────────────────────────────────────────
+
+const STATUS_BORDER: Record<string, string> = {
+  Confirmed: 'border-l-[3px] border-emerald-500',
+  Pending:   'border-l-[3px] border-amber-400',
+  Cancelled: 'border-l-[3px] border-gray-300',
+};
 
 // ── Main component ────────────────────────────────────────────────────────────
 
@@ -171,7 +161,6 @@ export function DashboardClient() {
 
   useEffect(() => { void fetchBookings(); }, [fetchBookings]);
 
-  // ── Derived stats ─────────────────────────────────────────────────────────
   const activeBookings = useMemo(
     () => bookings.filter((b) => b.status === 'Confirmed').length,
     [bookings],
@@ -181,7 +170,6 @@ export function DashboardClient() {
     [bookings],
   );
 
-  // ── Last-6-months chart data ──────────────────────────────────────────────
   const chartData = useMemo(() => {
     const now = new Date();
     return Array.from({ length: 6 }, (_, i) => {
@@ -193,7 +181,6 @@ export function DashboardClient() {
     });
   }, [bookings]);
 
-  // ── Upcoming bookings (date >= today, next 5) ─────────────────────────────
   const today = new Date().toISOString().slice(0, 10);
   const upcomingBookings = useMemo(
     () =>
@@ -207,22 +194,23 @@ export function DashboardClient() {
   const statsLoading = spacesLoading || savedLoading || bookingsLoading;
 
   return (
-    <div className="px-4 sm:px-8 py-8 max-w-7xl mx-auto space-y-8">
-      {/* ── Page heading ───────────────────────────────────────────────── */}
+    <div className="px-6 py-8 max-w-7xl mx-auto space-y-6">
+      {/* Page heading */}
       <div>
-        <h1 className="text-2xl font-bold text-gray-900">Dashboard</h1>
-        <p className="text-sm text-gray-500 mt-0.5">
-          Your workspace activity at a glance
-        </p>
+        <h1 className="text-2xl font-semibold text-gray-900">Dashboard</h1>
+        <p className="text-sm text-gray-500 mt-1">Here's what's been happening</p>
       </div>
 
-      {/* ── Stats row ──────────────────────────────────────────────────── */}
+      {/* Stats row */}
       <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4">
         <StatCard
           label="Total Spaces"
           value={spaces.length}
           trend="+5% from last month"
           trendUp
+          cardClassName="bg-white rounded-xl border border-gray-200 border-l-4 border-l-blue-500 p-6 flex items-start justify-between"
+          iconBg="bg-blue-50"
+          iconText="text-blue-500"
           loading={statsLoading}
           icon={
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -236,6 +224,9 @@ export function DashboardClient() {
           value={savedItems.length}
           trend="+2 this week"
           trendUp
+          cardClassName="bg-white rounded-xl border border-gray-200 border-l-4 border-l-rose-500 p-6 flex items-start justify-between"
+          iconBg="bg-rose-50"
+          iconText="text-rose-500"
           loading={statsLoading}
           icon={
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -248,6 +239,9 @@ export function DashboardClient() {
           value={activeBookings}
           trend="+12% from last month"
           trendUp
+          cardClassName="bg-white rounded-xl border border-gray-200 border-l-4 border-l-amber-500 p-6 flex items-start justify-between"
+          iconBg="bg-amber-50"
+          iconText="text-amber-500"
           loading={statsLoading}
           icon={
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -263,6 +257,9 @@ export function DashboardClient() {
           value={formatCurrency(totalSpent)}
           trend="-3% from last month"
           trendUp={false}
+          cardClassName="bg-white rounded-xl border border-gray-200 border-l-4 border-l-emerald-500 p-6 flex items-start justify-between"
+          iconBg="bg-emerald-50"
+          iconText="text-emerald-500"
           loading={statsLoading}
           icon={
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -273,69 +270,72 @@ export function DashboardClient() {
         />
       </div>
 
-      {/* ── Chart + upcoming (two columns on wide screens) ─────────────── */}
+      {/* Chart + upcoming */}
       <div className="grid grid-cols-1 xl:grid-cols-3 gap-6">
         {/* Bar chart */}
-        <div className="xl:col-span-2 rounded-2xl border border-gray-200 bg-white p-6">
-          <h2 className="font-semibold text-gray-900 mb-1">Booking Activity</h2>
-          <p className="text-xs text-gray-500 mb-6">Bookings per month (last 6 months)</p>
+        <div className="xl:col-span-2 rounded-xl border border-gray-100 bg-white p-6 shadow-sm">
+          <h2 className="text-sm font-semibold text-gray-900 mb-0.5">Booking Activity</h2>
+          <p className="text-xs text-gray-500 mb-6">
+            Bookings per month · last 6 months
+          </p>
           {bookingsLoading ? (
             <div className="h-64 rounded-xl bg-gray-100 animate-pulse" />
           ) : bookingsError ? (
-            <div className="h-64 flex items-center justify-center text-sm text-red-500">
+            <div className="h-64 flex items-center justify-center text-sm text-red-400">
               Failed to load chart data
             </div>
           ) : (
             <ResponsiveContainer width="100%" height={260}>
-              <BarChart data={chartData} barSize={36}>
-                <CartesianGrid strokeDasharray="3 3" stroke="#f3f4f6" vertical={false} />
+              <BarChart data={chartData} barSize={40} barCategoryGap="30%">
                 <XAxis
                   dataKey="month"
                   axisLine={false}
                   tickLine={false}
-                  tick={{ fontSize: 12, fill: '#9ca3af' }}
+                  tick={{ fontSize: 12, fill: '#9ca3af', fontWeight: 500 }}
                 />
                 <YAxis
                   allowDecimals={false}
                   axisLine={false}
                   tickLine={false}
                   tick={{ fontSize: 12, fill: '#9ca3af' }}
-                  width={28}
+                  width={24}
                 />
-                <Tooltip content={<ChartTooltip />} cursor={{ fill: '#f5f3ff' }} />
-                <Bar dataKey="bookings" fill="#7c3aed" radius={[6, 6, 0, 0]} />
+                <Tooltip content={<ChartTooltip />} cursor={{ fill: '#f5f3ff', radius: 6 }} />
+                <Bar dataKey="bookings" fill="#6366f1" radius={[6, 6, 2, 2]} />
               </BarChart>
             </ResponsiveContainer>
           )}
         </div>
 
         {/* Upcoming bookings */}
-        <div className="rounded-2xl border border-gray-200 bg-white p-6">
-          <h2 className="font-semibold text-gray-900 mb-1">Upcoming Bookings</h2>
-          <p className="text-xs text-gray-500 mb-4">Next 5 upcoming</p>
+        <div className="rounded-xl border border-gray-100 bg-white p-6 shadow-sm">
+          <h2 className="text-sm font-semibold text-gray-900 mb-0.5">Upcoming Bookings</h2>
+          <p className="text-xs text-gray-500 mb-5">
+            Next 5 upcoming
+          </p>
 
           {bookingsLoading ? (
-            <div className="space-y-3">
+            <div className="space-y-2.5">
               {Array.from({ length: 5 }).map((_, i) => (
-                <div key={i} className="h-14 rounded-xl bg-gray-100 animate-pulse" />
+                <div key={i} className="h-[60px] rounded-lg bg-gray-100 animate-pulse" />
               ))}
             </div>
           ) : upcomingBookings.length === 0 ? (
             <div className="flex flex-col items-center justify-center h-40 gap-2 text-center">
-              <p className="text-sm text-gray-500">No upcoming bookings</p>
+              <p className="text-sm text-gray-400">No upcoming bookings</p>
             </div>
           ) : (
-            <ul className="space-y-3">
+            <ul className="space-y-2.5">
               {upcomingBookings.map((booking) => (
                 <li
                   key={booking.id}
-                  className="flex items-start justify-between gap-3 rounded-xl bg-gray-50 px-3 py-2.5"
+                  className={`flex items-start justify-between gap-3 rounded-lg bg-gray-50 px-3 py-3 ${STATUS_BORDER[booking.status] ?? ''}`}
                 >
                   <div className="min-w-0">
-                    <p className="text-sm font-medium text-gray-900 truncate">
+                    <p className="text-sm font-semibold text-gray-900 truncate leading-tight">
                       {booking.spaceName}
                     </p>
-                    <p className="text-xs text-gray-500 mt-0.5">
+                    <p className="text-[11px] text-gray-400 mt-0.5">
                       {formatDate(booking.date)} · {booking.type}
                     </p>
                   </div>

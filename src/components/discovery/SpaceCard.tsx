@@ -30,10 +30,7 @@ function formatPrice(price: number): string {
 function StarDisplay({ rating }: { rating: number }) {
   const rounded = Math.round(rating);
   return (
-    <div
-      className="flex items-center gap-0.5"
-      aria-label={`${rating} out of 5 stars`}
-    >
+    <div className="flex items-center gap-0.5" aria-label={`${rating} out of 5 stars`}>
       {[1, 2, 3, 4, 5].map((i) => (
         <svg
           key={i}
@@ -57,11 +54,11 @@ function StarDisplay({ rating }: { rating: number }) {
 function HeartIcon({ filled }: { filled: boolean }) {
   return (
     <svg
-      width="16"
-      height="16"
+      width="15"
+      height="15"
       viewBox="0 0 24 24"
-      fill={filled ? '#ef4444' : 'none'}
-      stroke={filled ? '#ef4444' : 'currentColor'}
+      fill={filled ? 'currentColor' : 'none'}
+      stroke="currentColor"
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -76,24 +73,17 @@ function HeartIcon({ filled }: { filled: boolean }) {
 
 function SpaceCardSkeleton() {
   return (
-    <div className="rounded-2xl overflow-hidden border border-gray-200 bg-white animate-pulse">
-      <div className="h-48 bg-gray-200" />
+    <div className="rounded-2xl overflow-hidden border border-gray-100 bg-white shadow-sm animate-pulse">
+      <div className="h-[200px] bg-gray-200" />
       <div className="p-4 space-y-3">
-        <div className="flex items-start justify-between gap-2">
-          <div className="h-5 bg-gray-200 rounded w-3/5" />
-          <div className="h-5 bg-gray-200 rounded-full w-12" />
-        </div>
+        <div className="h-5 bg-gray-200 rounded-lg w-3/4" />
         <div className="h-4 bg-gray-200 rounded w-2/5" />
-        <div className="h-4 bg-gray-200 rounded w-24" />
-        <div className="flex gap-1.5">
-          <div className="h-6 bg-gray-200 rounded-full w-14" />
-          <div className="h-6 bg-gray-200 rounded-full w-16" />
-          <div className="h-6 bg-gray-200 rounded-full w-12" />
+        <div className="h-4 bg-gray-200 rounded w-28" />
+        <div className="flex gap-1.5 pt-1">
+          <div className="h-5 bg-gray-200 rounded-full w-14" />
+          <div className="h-5 bg-gray-200 rounded-full w-20" />
         </div>
-        <div className="flex items-center justify-between pt-2 border-t border-gray-100">
-          <div className="h-6 bg-gray-200 rounded w-20" />
-          <div className="h-8 bg-gray-200 rounded-lg w-24" />
-        </div>
+        <div className="h-9 bg-gray-200 rounded-lg mt-2" />
       </div>
     </div>
   );
@@ -105,32 +95,22 @@ export function SpaceCard(props: SpaceCardProps) {
   if (props.isLoading) return <SpaceCardSkeleton />;
 
   const { space, isSaved, onToggleSave } = props;
-  const visibleAmenities = space.amenities.slice(0, 3);
-  const extraCount = space.amenities.length - 3;
 
   return (
-    <article className="group rounded-2xl overflow-hidden border border-gray-200 bg-white hover:border-violet-300 hover:shadow-lg transition-all duration-200 flex flex-col">
-      {/* Cover image */}
-      <div className="relative h-48 bg-gray-100 shrink-0">
+    <article className="group flex flex-col rounded-2xl overflow-hidden border border-gray-100 bg-white shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-200">
+      {/* ── Cover image ─────────────────────────────────────────────────── */}
+      <div className="relative h-[200px] bg-gray-100 shrink-0 overflow-hidden">
         {space.images[0] ? (
           <Image
             src={space.images[0]}
             alt={space.name}
             fill
             sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
-            className="object-cover"
+            className="object-cover group-hover:scale-105 transition-transform duration-300"
           />
         ) : (
           <div className="absolute inset-0 flex items-center justify-center bg-gray-100">
-            <svg
-              width="40"
-              height="40"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="#d1d5db"
-              strokeWidth="1.5"
-              aria-hidden="true"
-            >
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#d1d5db" strokeWidth="1.5" aria-hidden="true">
               <rect x="3" y="3" width="18" height="18" rx="2" />
               <circle cx="8.5" cy="8.5" r="1.5" />
               <polyline points="21 15 16 10 5 21" />
@@ -138,64 +118,44 @@ export function SpaceCard(props: SpaceCardProps) {
           </div>
         )}
 
-        {/* Category badge */}
+        {/* Category badge — top-left, dark semi-transparent pill */}
         <div className="absolute top-3 left-3">
-          <span className="inline-flex items-center rounded-full bg-white/90 backdrop-blur-sm px-2.5 py-0.5 text-xs font-medium text-gray-700 border border-white/60 shadow-sm">
+          <span className="inline-flex items-center rounded-full bg-gray-900 px-2.5 py-1 text-[11px] font-semibold text-white tracking-wide">
             {space.category}
           </span>
         </div>
 
-        {/* Save / heart button */}
-        <button
-          type="button"
-          onClick={(e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            onToggleSave();
-          }}
-          aria-label={isSaved ? 'Remove from saved' : 'Save this space'}
-          className="absolute top-3 right-3 flex h-8 w-8 items-center justify-center rounded-full bg-white/90 backdrop-blur-sm border border-white/60 shadow-sm text-gray-500 hover:text-red-500 transition-colors"
-        >
-          <HeartIcon filled={isSaved} />
-        </button>
-      </div>
-
-      {/* Card body */}
-      <div className="flex flex-col flex-1 p-4">
-        {/* Name + capacity badge */}
-        <div className="flex items-start justify-between gap-2 mb-1.5">
-          <h3 className="font-semibold text-gray-900 text-sm leading-snug line-clamp-2 flex-1">
-            {space.name}
-          </h3>
-          <span className="shrink-0 inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-500 font-medium">
-            <svg
-              width="11"
-              height="11"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              aria-label="Capacity"
-            >
-              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
-              <circle cx="9" cy="7" r="4" />
-              <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
-            </svg>
-            {space.capacity}
+        {/* Top-right stack: heart button + price pill */}
+        <div className="absolute top-3 right-3 flex flex-col items-end gap-2">
+          <button
+            type="button"
+            onClick={(e) => { e.preventDefault(); e.stopPropagation(); onToggleSave(); }}
+            aria-label={isSaved ? 'Remove from saved' : 'Save this space'}
+            className={`flex h-8 w-8 items-center justify-center rounded-full shadow-sm transition-colors ${
+              isSaved
+                ? 'bg-red-50 text-red-500'
+                : 'bg-transparent text-white hover:bg-red-50 hover:text-red-500'
+            }`}
+          >
+            <HeartIcon filled={isSaved} />
+          </button>
+          <span className="inline-flex items-center gap-0.5 rounded-full bg-white shadow-sm px-2.5 py-1 text-xs font-bold text-gray-900 whitespace-nowrap">
+            {formatPrice(space.pricePerHour)}
+            <span className="font-normal text-gray-400">/day</span>
           </span>
         </div>
+      </div>
+
+      {/* ── Card body ───────────────────────────────────────────────────── */}
+      <div className="flex flex-col flex-1 p-4 gap-2">
+        {/* Name */}
+        <h3 className="text-base font-semibold text-gray-900 leading-snug line-clamp-2">
+          {space.name}
+        </h3>
 
         {/* City */}
-        <p className="flex items-center gap-1 text-xs text-gray-500 mb-2">
-          <svg
-            width="11"
-            height="11"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
-            aria-hidden="true"
-          >
+        <p className="flex items-center gap-1 text-xs text-gray-400">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden="true">
             <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z" />
             <circle cx="12" cy="10" r="3" />
           </svg>
@@ -203,48 +163,41 @@ export function SpaceCard(props: SpaceCardProps) {
         </p>
 
         {/* Stars + review count */}
-        <div className="flex items-center gap-1.5 mb-3">
+        <div className="flex items-center gap-1.5">
           <StarDisplay rating={space.rating} />
-          <span className="text-xs text-gray-500">
-            {space.rating.toFixed(1)}
-            <span className="text-gray-400"> ({space.reviewCount})</span>
+          <span className="text-xs font-medium text-gray-600">{space.rating.toFixed(1)}</span>
+          <span className="text-xs text-gray-400">({space.reviewCount})</span>
+        </div>
+
+        {/* Capacity + top amenity tags */}
+        <div className="flex flex-wrap items-center gap-1.5 mt-auto pt-1">
+          <span className="inline-flex items-center gap-1 rounded-full bg-gray-100 px-2 py-0.5 text-xs font-medium text-gray-600">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-label="Capacity">
+              <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
+            </svg>
+            {space.capacity}
           </span>
-        </div>
-
-        {/* Amenity tags */}
-        {space.amenities.length > 0 && (
-          <div className="flex flex-wrap gap-1 mb-3">
-            {visibleAmenities.map((amenity) => (
-              <span
-                key={amenity}
-                className="inline-flex items-center rounded-full bg-violet-50 px-2 py-0.5 text-xs font-medium text-violet-700"
-              >
-                {amenity}
-              </span>
-            ))}
-            {extraCount > 0 && (
-              <span className="inline-flex items-center rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-500">
-                +{extraCount} more
-              </span>
-            )}
-          </div>
-        )}
-
-        {/* Footer: price + CTA */}
-        <div className="flex items-center justify-between pt-2 mt-auto border-t border-gray-100">
-          <div className="leading-none">
-            <span className="text-base font-bold text-gray-900">
-              {formatPrice(space.pricePerHour)}
+          {space.amenities[0] && (
+            <span className="inline-flex items-center rounded-full bg-indigo-50 px-2 py-0.5 text-xs font-medium text-indigo-700">
+              {space.amenities[0]}
             </span>
-            <span className="text-xs text-gray-400"> /day</span>
-          </div>
-          <button
-            type="button"
-            className="rounded-lg bg-violet-600 px-3 py-1.5 text-xs font-semibold text-white hover:bg-violet-700 transition-colors focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-1"
-          >
-            View Details
-          </button>
+          )}
+          {space.amenities.length > 1 && (
+            <span className="inline-flex items-center rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-500">
+              +{space.amenities.length - 1}
+            </span>
+          )}
         </div>
+
+        {/* View Details — full-width CTA */}
+        <button
+          type="button"
+          className="mt-3 w-full rounded-lg bg-gray-900 py-2 text-sm font-semibold text-white hover:bg-gray-700 active:bg-gray-900 transition-colors focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-1"
+        >
+          View Details
+        </button>
       </div>
     </article>
   );

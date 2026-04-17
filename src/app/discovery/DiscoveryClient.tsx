@@ -26,35 +26,27 @@ export function DiscoveryClient() {
 
   const [filterPanelOpen, setFilterPanelOpen] = useState(false);
 
+  const searchValue = filters.kind === 'active' ? filters.searchQuery : '';
+
   // ── Error state ───────────────────────────────────────────────────────────
   if (spacesError) {
     return (
-      <div className="flex flex-col items-center justify-center min-h-[60vh] gap-4 text-center px-4">
-        <div className="w-14 h-14 rounded-full bg-red-50 flex items-center justify-center">
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="#ef4444"
-            strokeWidth="2"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            aria-hidden="true"
-          >
+      <div className="flex flex-col items-center justify-center min-h-[60vh] gap-5 text-center px-6">
+        <div className="w-16 h-16 rounded-2xl bg-red-50 flex items-center justify-center">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#ef4444" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
             <circle cx="12" cy="12" r="10" />
             <line x1="12" y1="8" x2="12" y2="12" />
             <line x1="12" y1="16" x2="12.01" y2="16" />
           </svg>
         </div>
         <div>
-          <p className="font-semibold text-gray-900 mb-1">Failed to load spaces</p>
+          <p className="text-base font-semibold text-gray-900 mb-1">Failed to load spaces</p>
           <p className="text-sm text-gray-500">{spacesError}</p>
         </div>
         <button
           type="button"
           onClick={() => void refetch()}
-          className="rounded-lg bg-violet-600 px-4 py-2 text-sm font-semibold text-white hover:bg-violet-700 transition-colors focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-2"
+          className="rounded-lg bg-gray-900 px-5 py-2.5 text-sm font-semibold text-white hover:bg-gray-700 transition-colors focus:outline-none focus:ring-2 focus:ring-gray-900 focus:ring-offset-2"
         >
           Try again
         </button>
@@ -64,7 +56,7 @@ export function DiscoveryClient() {
 
   return (
     <div className="flex min-h-screen bg-gray-50">
-      {/* ── Filter panel (desktop sidebar + mobile drawer) ──────────────── */}
+      {/* Filter panel */}
       <FilterPanel
         allSpaces={spaces}
         filters={filters}
@@ -74,50 +66,40 @@ export function DiscoveryClient() {
         onClose={() => setFilterPanelOpen(false)}
       />
 
-      {/* ── Main content ────────────────────────────────────────────────── */}
-      <main className="flex-1 min-w-0 px-4 sm:px-6 py-6">
-        {/* ── Top bar ─────────────────────────────────────────────────── */}
-        <div className="flex flex-wrap items-center gap-3 mb-4">
+      {/* Main content */}
+      <main className="flex-1 min-w-0">
+        {/* Sticky top bar */}
+        <div className="sticky top-0 z-10 bg-white border-b border-gray-200 px-6 py-4 flex items-center gap-3">
           {/* Mobile filter toggle */}
           <button
             type="button"
             onClick={() => setFilterPanelOpen(true)}
-            className="lg:hidden inline-flex items-center gap-2 rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors"
+            className="lg:hidden inline-flex items-center gap-2 rounded-lg border border-gray-200 bg-white px-3.5 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 shadow-sm transition-colors shrink-0"
             aria-label="Open filters"
           >
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              aria-hidden="true"
-            >
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
               <line x1="4" y1="6" x2="20" y2="6" />
               <line x1="8" y1="12" x2="16" y2="12" />
               <line x1="11" y1="18" x2="13" y2="18" />
             </svg>
             Filters
             {activeFilterCount > 0 && (
-              <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-violet-600 text-[10px] font-bold text-white">
+              <span className="inline-flex h-5 w-5 items-center justify-center rounded-full bg-gray-900 text-[10px] font-bold text-white">
                 {activeFilterCount}
               </span>
             )}
           </button>
 
-          {/* Search input */}
-          <div className="relative flex-1 min-w-[200px]">
+          {/* Search — flex-1, full-width within bar */}
+          <div className="relative flex-1">
             <svg
-              className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-gray-400"
-              width="15"
-              height="15"
+              className="pointer-events-none absolute left-5 top-1/2 -translate-y-1/2 text-gray-400"
+              width="18"
+              height="18"
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              strokeWidth="2.5"
+              strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
               aria-hidden="true"
@@ -127,24 +109,35 @@ export function DiscoveryClient() {
             </svg>
             <input
               type="search"
-              placeholder="Search spaces…"
-              value={filters.kind === 'active' ? filters.searchQuery : ''}
+              placeholder="Search spaces by name, city…"
+              value={searchValue}
               onChange={(e) => setFilter('searchQuery', e.target.value)}
-              className="w-full rounded-lg border border-gray-300 bg-white py-2 pl-9 pr-4 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:border-transparent transition-colors"
+              className="w-full rounded-full border border-gray-200 bg-white min-h-[48px] pl-13 pr-12 text-base shadow-sm placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-shadow"
             />
+            {searchValue && (
+              <button
+                type="button"
+                onClick={() => setFilter('searchQuery', '')}
+                aria-label="Clear search"
+                className="absolute right-4 top-1/2 -translate-y-1/2 flex h-6 w-6 items-center justify-center rounded-full bg-gray-200 text-gray-500 hover:bg-gray-300 transition-colors"
+              >
+                <svg width="9" height="9" viewBox="0 0 10 10" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" aria-hidden="true">
+                  <line x1="1" y1="1" x2="9" y2="9" />
+                  <line x1="9" y1="1" x2="1" y2="9" />
+                </svg>
+              </button>
+            )}
           </div>
 
           {/* Result count + sort */}
-          <div className="flex items-center gap-3 ml-auto shrink-0">
+          <div className="flex items-center gap-3 shrink-0">
             <span className="text-sm text-gray-500 whitespace-nowrap">
               {spacesLoading ? (
-                <span className="inline-block h-4 w-32 rounded bg-gray-200 animate-pulse" />
+                <span className="inline-block h-4 w-32 rounded-full bg-gray-200 animate-pulse" />
               ) : (
                 <>
-                  <span className="font-semibold text-gray-800">{sortedSpaces.length}</span>
-                  {' of '}
-                  <span className="font-semibold text-gray-800">{spaces.length}</span>
-                  {' spaces'}
+                  <span className="font-semibold text-gray-900">{sortedSpaces.length}</span>
+                  <span className="text-gray-400"> of {spaces.length} spaces</span>
                 </>
               )}
             </span>
@@ -152,25 +145,28 @@ export function DiscoveryClient() {
           </div>
         </div>
 
-        {/* ── Active filter chips ─────────────────────────────────────── */}
-        <ActiveFilterChips
-          filters={filters}
-          setFilter={setFilter}
-          clearAllFilters={clearAllFilters}
-        />
-
-        {/* ── Grid / empty / loading ──────────────────────────────────── */}
-        {!spacesLoading && sortedSpaces.length === 0 ? (
-          <EmptyState hasFilters={activeFilterCount > 0} onClear={clearAllFilters} />
-        ) : (
-          <VirtualizedGrid
-            spaces={sortedSpaces}
-            isLoading={spacesLoading}
-            skeletonCount={8}
-            isSaved={isSaved}
-            onToggleSave={(id) => void toggleSave(id)}
+        {/* Scrollable content */}
+        <div className="px-6 py-6">
+          {/* Active filter chips */}
+          <ActiveFilterChips
+            filters={filters}
+            setFilter={setFilter}
+            clearAllFilters={clearAllFilters}
           />
-        )}
+
+          {/* Grid / empty / loading */}
+          {!spacesLoading && sortedSpaces.length === 0 ? (
+            <EmptyState hasFilters={activeFilterCount > 0} onClear={clearAllFilters} />
+          ) : (
+            <VirtualizedGrid
+              spaces={sortedSpaces}
+              isLoading={spacesLoading}
+              skeletonCount={8}
+              isSaved={isSaved}
+              onToggleSave={(id) => void toggleSave(id)}
+            />
+          )}
+        </div>
       </main>
     </div>
   );
@@ -186,36 +182,26 @@ function EmptyState({
   onClear: () => void;
 }) {
   return (
-    <div className="flex flex-col items-center justify-center min-h-[50vh] gap-4 text-center px-4">
-      <div className="w-16 h-16 rounded-full bg-gray-100 flex items-center justify-center">
-        <svg
-          width="28"
-          height="28"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="#9ca3af"
-          strokeWidth="1.5"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          aria-hidden="true"
-        >
-          <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z" />
-          <polyline points="9 22 9 12 15 12 15 22" />
+    <div className="flex flex-col items-center justify-center min-h-[50vh] gap-5 text-center px-4">
+      <div className="w-20 h-20 rounded-2xl bg-gray-100 flex items-center justify-center">
+        <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#9ca3af" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8" />
+          <line x1="21" y1="21" x2="16.65" y2="16.65" />
         </svg>
       </div>
       <div>
-        <p className="font-semibold text-gray-900 mb-1">No spaces found</p>
-        <p className="text-sm text-gray-500">
+        <p className="text-base font-semibold text-gray-900 mb-1.5">No spaces found</p>
+        <p className="text-sm text-gray-500 max-w-xs">
           {hasFilters
-            ? 'Try adjusting your filters to see more results.'
-            : 'No spaces are available at the moment.'}
+            ? 'Try adjusting your filters.'
+            : 'No spaces available right now.'}
         </p>
       </div>
       {hasFilters && (
         <button
           type="button"
           onClick={onClear}
-          className="rounded-lg border border-gray-300 px-4 py-2 text-sm font-medium text-gray-600 hover:bg-gray-50 transition-colors"
+          className="rounded-lg border border-gray-200 bg-white px-5 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 transition-colors"
         >
           Clear all filters
         </button>

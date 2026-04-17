@@ -5,7 +5,7 @@ import { DiscoveryClient } from './DiscoveryClient';
 // ── Metadata ──────────────────────────────────────────────────────────────────
 
 export const metadata: Metadata = {
-  title: 'Discover Spaces — Telohive',
+  title: 'Discover Spaces — TeloHive',
   description:
     'Browse and filter coworking spaces, private offices, meeting rooms, and more.',
 };

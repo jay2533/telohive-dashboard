@@ -36,13 +36,13 @@ function Chip({
   onRemove: () => void;
 }) {
   return (
-    <span className="inline-flex items-center gap-1.5 rounded-full bg-violet-100 pl-3 pr-2 py-1 text-xs font-medium text-violet-800">
+    <span className="inline-flex items-center gap-1.5 rounded-full bg-indigo-50 pl-3 pr-2 py-1 text-xs font-medium text-indigo-700">
       {label}
       <button
         type="button"
         onClick={onRemove}
         aria-label={`Remove filter: ${label}`}
-        className="flex h-4 w-4 items-center justify-center rounded-full hover:bg-violet-200 transition-colors"
+        className="flex h-4 w-4 items-center justify-center rounded-full hover:bg-indigo-100 transition-colors"
       >
         <svg
           width="8"

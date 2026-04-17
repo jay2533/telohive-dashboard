@@ -24,6 +24,13 @@ function validatePassword(v: string): string | null {
   return null;
 }
 
+function validatePhone(v: string): string | null {
+  const digits = v.replace(/\D/g, '');
+  if (digits.length === 0) return 'Phone number is required.';
+  if (digits.length < 10) return 'Enter a valid phone number (at least 10 digits).';
+  return null;
+}
+
 function validateConfirm(password: string, confirm: string): string | null {
   return confirm === password ? null : 'Passwords do not match.';
 }
@@ -44,7 +51,7 @@ function passwordStrength(v: string): { score: number; label: string; color: str
   return { score, label: 'Strong', color: 'bg-green-500' };
 }
 
-// ── SVG icons ─────────────────────────────────────────────────────────────────
+// ── Icons ─────────────────────────────────────────────────────────────────────
 
 function EyeIcon() {
   return (
@@ -99,6 +106,7 @@ function PasswordInput({
   autoComplete: string;
   placeholder: string;
 }) {
+  const inputBase = 'w-full rounded-lg border px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:border-transparent transition-colors';
   return (
     <div>
       <label htmlFor={id} className="mb-1 block text-sm font-medium text-gray-700">
@@ -115,10 +123,10 @@ function PasswordInput({
           aria-describedby={error ? errorId : undefined}
           aria-invalid={error ? true : undefined}
           placeholder={placeholder}
-          className={`w-full rounded-lg border px-3 py-2.5 pr-10 text-sm text-gray-900 placeholder:text-gray-400 transition-colors focus:outline-none focus:ring-2 ${
+          className={`${inputBase} pr-10 ${
             error
               ? 'border-red-400 bg-red-50 focus:ring-red-300'
-              : 'border-gray-300 bg-white focus:border-violet-500 focus:ring-violet-500'
+              : 'border-gray-300 bg-white focus:ring-indigo-500'
           }`}
         />
         <button
@@ -135,22 +143,11 @@ function PasswordInput({
   );
 }
 
-// ── Logo ──────────────────────────────────────────────────────────────────────
-
-function Logo({ size = 32 }: { size?: number }) {
-  return (
-    <svg width={size} height={size} viewBox="0 0 32 32" fill="none" aria-hidden="true">
-      <rect width="32" height="32" rx="8" fill="#7c3aed" />
-      <path d="M8 16L16 8L24 16L16 24Z" fill="white" />
-      <circle cx="16" cy="16" r="4" fill="rgba(255,255,255,0.35)" />
-    </svg>
-  );
-}
-
 // ── Main component ────────────────────────────────────────────────────────────
 
 type Touched = {
   name: boolean;
+  phone: boolean;
   email: boolean;
   password: boolean;
   confirm: boolean;
@@ -160,6 +157,7 @@ export default function RegisterForm() {
   const { register, isLoading, error: authError } = useAuth();
 
   const [name, setName] = useState('');
+  const [phone, setPhone] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirm, setConfirm] = useState('');
@@ -167,6 +165,7 @@ export default function RegisterForm() {
   const [showConfirm, setShowConfirm] = useState(false);
   const [touched, setTouched] = useState<Touched>({
     name: false,
+    phone: false,
     email: false,
     password: false,
     confirm: false,
@@ -175,13 +174,15 @@ export default function RegisterForm() {
   const touch = (field: keyof Touched) =>
     setTouched((t) => ({ ...t, [field]: true }));
 
-  const nameError = touched.name ? validateName(name) : null;
-  const emailError = touched.email ? validateEmail(email) : null;
-  const passwordError = touched.password ? validatePassword(password) : null;
+  const nameError    = touched.name    ? validateName(name)                 : null;
+  const phoneError   = touched.phone   ? validatePhone(phone)               : null;
+  const emailError   = touched.email   ? validateEmail(email)               : null;
+  const passwordError = touched.password ? validatePassword(password)       : null;
   const confirmError = touched.confirm ? validateConfirm(password, confirm) : null;
 
   const isFormValid =
     !validateName(name) &&
+    !validatePhone(phone) &&
     !validateEmail(email) &&
     !validatePassword(password) &&
     !validateConfirm(password, confirm);
@@ -190,56 +191,29 @@ export default function RegisterForm() {
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    setTouched({ name: true, email: true, password: true, confirm: true });
+    setTouched({ name: true, phone: true, email: true, password: true, confirm: true });
     if (!isFormValid) return;
-    await register({ name, email, password });
+    await register({ name, phone, email, password });
   };
 
+  const inputBase = 'w-full rounded-lg border px-3 py-2 text-sm text-gray-900 placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:border-transparent transition-colors';
+  const inputNormal = `${inputBase} border-gray-300 bg-white focus:ring-indigo-500`;
+  const inputError  = `${inputBase} border-red-400 bg-red-50 focus:ring-red-300`;
+
   return (
-    <div className="min-h-screen flex">
-      {/* ── Brand panel (desktop only) ─────────────────────────────────────── */}
-      <div className="hidden lg:flex lg:w-[45%] flex-col justify-between bg-gradient-to-br from-violet-600 via-indigo-600 to-blue-700 p-12 text-white">
-        <div className="flex items-center gap-2.5">
-          <Logo size={36} />
-          <span className="text-2xl font-bold tracking-tight">telohive</span>
-        </div>
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center px-4 py-12">
+      <div className="w-full max-w-md">
+        <div className="bg-white border border-gray-200 rounded-xl p-8">
 
-        <div>
-          <p className="text-4xl font-semibold leading-snug mb-4">
-            Join thousands of productive teams.
-          </p>
-          <p className="text-white/70 text-lg leading-relaxed">
-            Create your account and start discovering inspiring workspaces today.
-          </p>
-        </div>
-
-        <ul className="space-y-2 text-white/70 text-sm">
-          {[
-            'Access 10,000+ verified workspaces',
-            'Instant booking & instant confirmation',
-            'Cancel or reschedule anytime',
-          ].map((point) => (
-            <li key={point} className="flex items-center gap-2">
-              <span className="text-white font-bold">✓</span>
-              {point}
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      {/* ── Form panel ────────────────────────────────────────────────────── */}
-      <div className="flex flex-1 items-center justify-center bg-white px-6 py-12">
-        <div className="w-full max-w-sm">
-          {/* Mobile logo */}
-          <div className="mb-8 flex items-center gap-2 lg:hidden">
-            <Logo size={28} />
-            <span className="text-xl font-bold text-gray-900">telohive</span>
+          {/* Wordmark + product line */}
+          <div className="mb-8">
+            <p className="text-xl font-bold text-gray-900 tracking-tight mb-1">TeloHive</p>
+            <p className="text-sm text-gray-500">Find and book workspace by the hour or day.</p>
           </div>
 
-          <h1 className="text-2xl font-bold text-gray-900">Create an account</h1>
-          <p className="mt-1 mb-8 text-sm text-gray-500">
-            Get started — it&apos;s free.
-          </p>
+          {/* Heading */}
+          <h1 className="text-2xl font-semibold text-gray-900 mb-1">Create your account</h1>
+          <p className="text-sm text-gray-500 mb-6">It&apos;s free to sign up.</p>
 
           {/* Auth-level error */}
           {authError && (
@@ -254,10 +228,7 @@ export default function RegisterForm() {
           <form onSubmit={handleSubmit} noValidate className="space-y-4">
             {/* Full name */}
             <div>
-              <label
-                htmlFor="name"
-                className="mb-1 block text-sm font-medium text-gray-700"
-              >
+              <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-1">
                 Full name
               </label>
               <input
@@ -270,21 +241,34 @@ export default function RegisterForm() {
                 aria-describedby={nameError ? 'name-error' : undefined}
                 aria-invalid={nameError ? true : undefined}
                 placeholder="Jane Smith"
-                className={`w-full rounded-lg border px-3 py-2.5 text-sm text-gray-900 placeholder:text-gray-400 transition-colors focus:outline-none focus:ring-2 ${
-                  nameError
-                    ? 'border-red-400 bg-red-50 focus:ring-red-300'
-                    : 'border-gray-300 bg-white focus:border-violet-500 focus:ring-violet-500'
-                }`}
+                className={nameError ? inputError : inputNormal}
               />
               {nameError && <FieldError id="name-error" message={nameError} />}
             </div>
 
+            {/* Phone */}
+            <div>
+              <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+                Phone
+              </label>
+              <input
+                id="phone"
+                type="tel"
+                autoComplete="tel"
+                value={phone}
+                onChange={(e) => setPhone(e.target.value)}
+                onBlur={() => touch('phone')}
+                aria-describedby={phoneError ? 'phone-error' : undefined}
+                aria-invalid={phoneError ? true : undefined}
+                placeholder="+1 (555) 000-0000"
+                className={phoneError ? inputError : inputNormal}
+              />
+              {phoneError && <FieldError id="phone-error" message={phoneError} />}
+            </div>
+
             {/* Email */}
             <div>
-              <label
-                htmlFor="email"
-                className="mb-1 block text-sm font-medium text-gray-700"
-              >
+              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
                 Email
               </label>
               <input
@@ -297,11 +281,7 @@ export default function RegisterForm() {
                 aria-describedby={emailError ? 'email-error' : undefined}
                 aria-invalid={emailError ? true : undefined}
                 placeholder="you@example.com"
-                className={`w-full rounded-lg border px-3 py-2.5 text-sm text-gray-900 placeholder:text-gray-400 transition-colors focus:outline-none focus:ring-2 ${
-                  emailError
-                    ? 'border-red-400 bg-red-50 focus:ring-red-300'
-                    : 'border-gray-300 bg-white focus:border-violet-500 focus:ring-violet-500'
-                }`}
+                className={emailError ? inputError : inputNormal}
               />
               {emailError && <FieldError id="email-error" message={emailError} />}
             </div>
@@ -329,9 +309,7 @@ export default function RegisterForm() {
                       <div
                         key={segment}
                         className={`h-1 flex-1 rounded-full transition-colors ${
-                          segment <= strength.score
-                            ? strength.color
-                            : 'bg-gray-200'
+                          segment <= strength.score ? strength.color : 'bg-gray-200'
                         }`}
                       />
                     ))}
@@ -339,9 +317,7 @@ export default function RegisterForm() {
                   {strength.label && (
                     <p className="text-xs text-gray-500">
                       Strength:{' '}
-                      <span className="font-medium text-gray-700">
-                        {strength.label}
-                      </span>
+                      <span className="font-medium text-gray-700">{strength.label}</span>
                     </p>
                   )}
                 </div>
@@ -367,18 +343,18 @@ export default function RegisterForm() {
             <button
               type="submit"
               disabled={isLoading}
-              className="w-full rounded-lg bg-violet-600 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-violet-700 focus:outline-none focus:ring-2 focus:ring-violet-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60"
+              className="w-full rounded-lg bg-indigo-600 py-2.5 text-sm font-semibold text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60 transition-colors"
             >
               {isLoading ? 'Creating account…' : 'Create account'}
             </button>
 
             <p className="text-center text-xs text-gray-400">
-              By creating an account you agree to our{' '}
-              <span className="text-violet-600 cursor-pointer hover:underline">
+              By signing up you agree to our{' '}
+              <span className="text-indigo-600 cursor-pointer hover:underline">
                 Terms of Service
               </span>{' '}
               and{' '}
-              <span className="text-violet-600 cursor-pointer hover:underline">
+              <span className="text-indigo-600 cursor-pointer hover:underline">
                 Privacy Policy
               </span>
               .
@@ -386,11 +362,11 @@ export default function RegisterForm() {
           </form>
 
           {/* Sign in link */}
-          <p className="mt-8 text-center text-sm text-gray-500">
+          <p className="mt-6 text-center text-sm text-gray-500">
             Already have an account?{' '}
             <Link
               href="/login"
-              className="font-semibold text-violet-600 transition-colors hover:text-violet-800"
+              className="font-semibold text-indigo-600 hover:text-indigo-800 transition-colors"
             >
               Sign in
             </Link>
