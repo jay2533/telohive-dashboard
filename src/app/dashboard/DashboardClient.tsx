@@ -26,7 +26,8 @@ interface RawBooking {
   createdAt: string;
 }
 
-const BOOKINGS_URL = 'http://localhost:3001/bookings';
+// Local mock API served by json-server (`npm run server`). Override via NEXT_PUBLIC_API_URL.
+const BOOKINGS_URL = `${process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:3001'}/bookings`;
 
 // ── Formatters ────────────────────────────────────────────────────────────────
 

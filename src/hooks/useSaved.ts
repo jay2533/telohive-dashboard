@@ -20,7 +20,8 @@ interface UseSavedResult {
   toggleSave: (spaceId: number) => Promise<void>;
 }
 
-const API_BASE = 'http://localhost:3001/saved';
+// Local mock API served by json-server (`npm run server`). Override via NEXT_PUBLIC_API_URL.
+const API_BASE = `${process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:3001'}/saved`;
 
 export function useSaved(): UseSavedResult {
   const [savedItems, setSavedItems] = useState<RawSavedItem[]>([]);

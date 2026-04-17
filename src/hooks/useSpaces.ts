@@ -55,7 +55,9 @@ interface UseSpacesResult {
   refetch: () => Promise<void>;
 }
 
-const API_URL = 'http://localhost:3001/spaces';
+// Local mock API served by json-server (`npm run server`). Override via NEXT_PUBLIC_API_URL.
+const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:3001';
+const API_URL = `${API_BASE}/spaces`;
 
 export function useSpaces(): UseSpacesResult {
   const [spaces, setSpaces] = useState<Space[]>([]);
