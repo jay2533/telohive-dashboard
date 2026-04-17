@@ -4,6 +4,7 @@ import { type FormEvent, useState } from 'react';
 import Link from 'next/link';
 import { useAuth } from '@/hooks/useAuth';
 import { useToast } from '@/components/ui/Toast';
+import { Logo } from '@/components/ui/Logo';
 
 // ── Validation ────────────────────────────────────────────────────────────────
 
@@ -119,7 +120,10 @@ export default function LoginForm() {
 
           {/* Wordmark + product line */}
           <div className="mb-8">
-            <p className="text-xl font-bold text-gray-900 tracking-tight mb-1">TeloHive</p>
+            <div className="flex items-center gap-2.5 mb-1">
+              <Logo size={40} />
+              <span className="text-xl font-bold text-gray-900 tracking-tight">TeloHive</span>
+            </div>
             <p className="text-sm text-gray-500">Find and book workspace by the hour or day.</p>
           </div>
 

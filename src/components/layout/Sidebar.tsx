@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useAuth } from '@/hooks/useAuth';
+import { Logo } from '@/components/ui/Logo';
 
 // ── Nav items ─────────────────────────────────────────────────────────────────
 
@@ -65,18 +66,6 @@ export function getInitials(name: string): string {
   if (parts.length === 0) return '?';
   if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
   return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
-}
-
-// ── Logo ──────────────────────────────────────────────────────────────────────
-
-export function Logo() {
-  return (
-    <svg width="28" height="28" viewBox="0 0 32 32" fill="none" aria-hidden="true">
-      <rect width="32" height="32" rx="8" fill="#4f46e5" />
-      <path d="M8 16L16 8L24 16L16 24Z" fill="white" />
-      <circle cx="16" cy="16" r="4" fill="rgba(255,255,255,0.35)" />
-    </svg>
-  );
 }
 
 // ── NavLinks (shared between desktop sidebar and mobile drawer) ───────────────

@@ -4,7 +4,8 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useAuth } from '@/hooks/useAuth';
-import { Logo, NavLinks, getInitials } from './Sidebar';
+import { Logo } from '@/components/ui/Logo';
+import { NavLinks, getInitials } from './Sidebar';
 
 // ── Component ─────────────────────────────────────────────────────────────────
 

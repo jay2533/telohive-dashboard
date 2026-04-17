@@ -2,7 +2,7 @@
 
 A space discovery and management dashboard built with Next.js 15, TypeScript, and Tailwind CSS. Users can search and filter 500+ venues, save favourites, track bookings, and view activity analytics.
 
-**Live demo:** [REPLACE_WITH_VERCEL_URL]  
+**Live demo:** https://telohive-dashboard.vercel.app
 **Repo:** https://github.com/jay2533/telohive-dashboard
 
 ---
